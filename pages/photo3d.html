@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        html,body{
+            height: 100%;
+        }
+        body{
+            background: url("../images/img0.jpg") no-repeat center/100% 100% ;
+        }
+        .wrap{
+            position: relative;
+            width: 533px;
+            height: 300px;
+            margin: 100px auto;
+            -webkit-perspective: ;
+            -moz-perspective: ;
+            -ms-perspective: ;
+            perspective: 800px;
+            background: url("../images/img0.jpg") no-repeat 0 0 ;
+        }
+        .left,.prev,.next,.right{
+            position: absolute;
+            right: 0;
+            top: 0;
+            height: 100%;
+        }
+        .left,.right{
+            position: absolute;
+            right: 0;
+            top: 0;
+            height: 100%;
+            width: 50%;
+        }
+        .left{
+            transform-origin: left;
+            transform-style: preserve-3d;
+            z-index: 1;
+        }
+        .left.on{
+            transform: rotateY(-180deg);
+            transition: 1.5s;
+        }
+        .right{
+            transform: translateZ(-1px);
+            background: url("../images/img1.jpg") no-repeat right top ;
+        }
+        .prev,.next{
+            position: absolute;
+            right: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+        }
+        .prev{
+            background: url("../images/img0.jpg") no-repeat right top ;
+        }
+        .next{
+            transform: translateZ(-1px) scale(-1,1);
+            background: url("../images/img1.jpg") no-repeat left top ;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="left">
+            <div class="prev"></div>
+            <div class="next"></div>
+        </div>
+        <div class="right">
+
+        </div>
+    </div>
+
+
+<script>
+    (function () {
+        var oBody = document.querySelector('body'),
+            oLeft = document.querySelector('.left'),
+            oWrap = document.querySelector('.wrap'),
+            oPrev = document.querySelector('.prev'),
+            oNext = document.querySelector('.next'),
+            oRight = document.querySelector('.right'),
+            isClick = false,
+            timer = null,
+            index = 0;//第几张图片，0代表第一张
+        oWrap.onmouseenter = function () {
+            clearInterval(timer);
+            this.onclick = change;
+            this.onmouseleave = function () {
+                auto();
+            }
+        };
+        auto()
+        //自动轮播函数
+        function auto() {
+            timer = setInterval(change,2000)
+        }
+
+        //复制图片翻转变化
+        function change() {
+            if(isClick) return;
+            isClick = true;
+            index++;
+            index %= 7;
+            oLeft.classList.add('on');
+            document.addEventListener('transitionend',function () {
+                oLeft.classList.remove('on');
+                oBody.style.backgroundImage =
+                oWrap.style.backgroundImage =
+                oPrev.style.backgroundImage =
+                    'url("../images/img' + index + '.jpg")';
+                oNext.style.backgroundImage =
+                oRight.style.backgroundImage =
+                    'url("../images/img' + (index+1)%7 + '.jpg")';
+                isClick = false;
+            })
+        }
+
+    })()
+</script>
+</body>
+</html>
