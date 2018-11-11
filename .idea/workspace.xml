@@ -2,6 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca8b0fda-afaa-4ec9-9379-7406fa4c8dd6" name="默认的" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mineClearance/img/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mineClearance/img/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mineClearance/img/cao.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mineClearance/img/dilei.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mineClearance/img/hongqi.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mineClearance/img/lei.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mineClearance/img/qi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mineClearance/img/shizhong.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mineClearance/img/time.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tank/audio/attack.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tank/audio/bulletCrack.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tank/audio/move.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tank/audio/playerCrack.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tank/audio/prop.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tank/audio/start.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tank/audio/tankCrack.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tank/images/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tank/images/menu.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tank/images/tankAll.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/acaleph/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/acaleph/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bleedLine/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bleedLine/js/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mineClearance/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mineClearance/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/cracker.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/discusTheCursor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/kaleidoscope.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/rotationalImplant.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tank/css/default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tank/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tank/js/Collision.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tank/js/Helper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tank/js/bullet.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tank/js/const.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tank/js/crackAnimation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tank/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tank/js/keyboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tank/js/level.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tank/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tank/js/map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tank/js/menu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tank/js/num.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tank/js/prop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tank/js/stage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tank/js/tank.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tornNet/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tornNet/js/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -16,110 +64,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tetris/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cube/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/squareInTheShuttle/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reset.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/butterfly/css/reset.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ballMaze/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/petal/demo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sexangle.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/sexangle.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3703">
-              <caret line="159" column="0" lean-forward="true" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shark/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gravityBall.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/gravityBall.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="752">
-              <caret line="1036" column="0" lean-forward="true" selection-start-line="1036" selection-start-column="0" selection-end-line="1036" selection-end-column="0" />
-              <folding>
-                <element signature="n#style#0;n#b#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/plane/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -138,6 +83,10 @@
         <option value="$PROJECT_DIR$/pages/tear.html" />
         <option value="$PROJECT_DIR$/pages/sexangle.html" />
         <option value="$PROJECT_DIR$/pages/gravityBall.html" />
+        <option value="$PROJECT_DIR$/pages/kaleidoscope.html" />
+        <option value="$PROJECT_DIR$/pages/discusTheCursor.html" />
+        <option value="$PROJECT_DIR$/pages/rotationalImplant.html" />
+        <option value="$PROJECT_DIR$/pages/cracker.html" />
       </list>
     </option>
   </component>
@@ -203,11 +152,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\study\component\plane" />
-      <recent name="E:\study\component\shark" />
-      <recent name="E:\study\component\petal" />
-      <recent name="E:\study\component\ballMaze" />
-      <recent name="E:\study\component\butterfly" />
+      <recent name="E:\study\component\mineClearance" />
+      <recent name="E:\study\component\tornNet" />
+      <recent name="E:\study\component\tank" />
+      <recent name="E:\study\component\acaleph" />
+      <recent name="E:\study\component\bleedLine" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -301,12 +250,12 @@
       <option name="presentableId" value="Default" />
       <updated>1541770787088</updated>
       <workItem from="1541770788959" duration="6183000" />
-      <workItem from="1541908737378" duration="2159000" />
+      <workItem from="1541908737378" duration="3316000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8342000" />
+    <option name="totallyTimeSpent" value="9499000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -319,7 +268,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -327,7 +275,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -443,8 +391,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/gravityBall.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="752">
-          <caret line="1036" column="0" lean-forward="true" selection-start-line="1036" selection-start-column="0" selection-end-line="1036" selection-end-column="0" />
+        <state relative-caret-position="-375">
+          <caret line="1036" column="0" lean-forward="false" selection-start-line="1036" selection-start-column="0" selection-end-line="1036" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#b#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -455,6 +403,86 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/love/js/nb.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bleedLine/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acaleph/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/kaleidoscope.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="239" column="7" lean-forward="false" selection-start-line="239" selection-start-column="7" selection-end-line="239" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/discusTheCursor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/rotationalImplant.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="683">
+          <caret line="280" column="0" lean-forward="false" selection-start-line="280" selection-start-column="0" selection-end-line="280" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tank/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tornNet/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mineClearance/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/cracker.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="36" column="7" lean-forward="false" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
           <folding />
         </state>
       </provider>
