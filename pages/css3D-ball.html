@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css3D球</title>
+    <link rel="stylesheet" href="../css/ball.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="box" id="circles"></div>
+</div>
+<script>
+    let circles = document.getElementById('circles');
+    for (let i = 0; i < 180; i++) {
+        let div = document.createElement('div');
+        // div.style.transform=`translateZ(${i}px)`;
+        div.style.transform = `rotateX(${i}deg)`;
+        div.className = `circle${i == 0 || i == 99 ? 'bg' : ''}`;
+        circles.appendChild(div)
+    }
+</script>
+</body>
+</html>
