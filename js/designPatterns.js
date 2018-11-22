@@ -88,3 +88,85 @@ var proxyImage = (function () {
     }
 })();
 proxyImage.setSrc('./pic.png');*/
+
+/*todo 4.中介者模式
+
+中介者模式的定义：通过一个中介者对象，其他所有的相关对象都通过该中介者对象来通信，而不是相互引用，当其中的一个对象发生改变时，只需要通知中介者对象即可。通过中介者模式可以解除对象与对象之间的紧耦合关系。
+
+例如：现实生活中，航线上的飞机只需要和机场的塔台通信就能确定航线和飞行状态，而不需要和所有飞机通信。同时塔台作为中介者，知道每架飞机的飞行状态，所以可以安排所有飞机的起降和航线安排。
+中介者模式适用的场景：例如购物车需求，存在商品选择表单、颜色选择表单、购买数量表单等等，都会触发change事件，那么可以通过中介者来转发处理这些事件，实现各个事件间的解耦，仅仅维护中介者对象即可。
+*/
+/*
+var goods = {   //手机库存
+    'red|32G': 3,
+    'red|64G': 1,
+    'blue|32G': 7,
+    'blue|32G': 6,
+};
+//中介者
+var mediator = (function () {
+    var colorSelect = document.getElementById('colorSelect');
+    var memorySelect = document.getElementById('memorySelect');
+    var numSelect = document.getElementById('numSelect');
+    return {
+        changed: function (obj) {
+            switch (obj) {
+                case colorSelect:
+                    //TODO
+                    break;
+                case memorySelect:
+                    //TODO
+                    break;
+                case numSelect:
+                    //TODO
+                    break;
+            }
+        }
+    }
+})();
+colorSelect.onchange = function () {
+    mediator.changed(this);
+};
+memorySelect.onchange = function () {
+    mediator.changed(this);
+};
+numSelect.onchange = function () {
+    mediator.changed(this);
+};*/
+
+/*todo 5.装饰者模式
+
+装饰者模式的定义：在不改变对象自身的基础上，在程序运行期间给对象动态地添加方法。
+
+例如：现有4种型号的自行车分别被定义成一个单独的类，如果给每辆自行车都加上前灯、尾灯、铃铛这3个配件，如果用类继承的方式，需要创建4*3=12个子类。但如果通过装饰者模式，只需要创建3个类。
+装饰者模式适用的场景：原有方法维持不变，在原有方法上再挂载其他方法来满足现有需求；函数的解耦，将函数拆分成多个可复用的函数，再将拆分出来的函数挂载到某个函数上，实现相同的效果但增强了复用性。
+例：用AOP装饰函数实现装饰者模式
+*/
+/*
+Function.prototype.before = function (beforefn) {
+    var self = this;    //保存原函数引用
+    return function () {  //返回包含了原函数和新函数的 '代理函数'
+        beforefn.apply(this, arguments);    //执行新函数，修正this
+        return self.apply(this, arguments);  //执行原函数
+    }
+}
+Function.prototype.after = function (afterfn) {
+    var self = this;
+    return function () {
+        var ret = self.apply(this, arguments);
+        afterfn.apply(this, arguments);
+        return ret;
+    }
+}
+var func = function () {
+    console.log('2');
+}
+//func1和func3为挂载函数
+var func1 = function () {
+    console.log('1');
+}
+var func3 = function () {
+    console.log('3');
+}
+func = func.before(func1).after(func3);
+func();*/
