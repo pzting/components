@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>面试题</title>
+    <!--<link rel="stylesheet" href="../css/interview-center.css">-->
+    <!-- 两种以上方式实现已知或者未知宽度的垂直水平居中 -->
+    <style>
+        .on {
+            border: 1px solid red;
+        }
+        .fu{
+            height: 50px;
+            width: 300px;
+            position:relative;
+            border:1px solid red;
+
+        }
+        .top{
+            height:100%;
+            width:1%;
+            position:absolute;
+            background: #fff;
+            z-index:1;
+        }
+        .bottom{
+            height:100%;
+            width:100%;
+            position:absolute;
+            text-align:center;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+<!--    实现效果，点击容器内的图标，图标边框变成border 1px solid red，点击空白处重置。-->
+<!--<div class="box">
+    <span class="icon">我是图片</span>
+</div>-->
+
+<!--请简单实现双向数据绑定mvvm。-->
+<!--<input type="text" id="input">-->
+
+<!-- 我现在有一个进度条，进度条中间有一串文字，当我的进度条覆盖了文字之后，文字要与进度条反色，怎么实现？-->
+<div class="fu">
+    <div class="top"></div>
+    <div class="bottom"> 100% 这是进度内容</div>
+</div>
+<script src="../js/interview-fun.js"></script><!-- -->
+</body>
+</html>
