@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca8b0fda-afaa-4ec9-9379-7406fa4c8dd6" name="默认的" comment="别人面试经验">
+    <list default="true" id="ca8b0fda-afaa-4ec9-9379-7406fa4c8dd6" name="默认的" comment="ssh的name">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -31,17 +31,17 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="1121" />
-          <entry key="html" value="1176" />
+          <entry key="html" value="1191" />
           <entry key="js" value="957" />
-          <entry key="txt" value="16" />
+          <entry key="txt" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="1121" />
-          <entry key="HTML" value="1176" />
+          <entry key="HTML" value="1191" />
           <entry key="JavaScript" value="957" />
-          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="PLAIN_TEXT" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -104,8 +104,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vue/page/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+            <state relative-caret-position="361">
+              <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -187,10 +187,10 @@
         <option value="$PROJECT_DIR$/css/ball.css" />
         <option value="$PROJECT_DIR$/pages/css3D-ball.html" />
         <option value="$PROJECT_DIR$/js/vue.js" />
-        <option value="$PROJECT_DIR$/vue/page/index.html" />
         <option value="$PROJECT_DIR$/css/interview-center.css" />
         <option value="$PROJECT_DIR$/js/interview-fun.js" />
         <option value="$PROJECT_DIR$/interview/index.html" />
+        <option value="$PROJECT_DIR$/vue/page/index.html" />
       </list>
     </option>
   </component>
@@ -311,7 +311,7 @@
       <workItem from="1542848393612" duration="8751000" />
       <workItem from="1542871225385" duration="4406000" />
       <workItem from="1542934560659" duration="7102000" />
-      <workItem from="1543195877521" duration="712000" />
+      <workItem from="1543195877521" duration="2176000" />
     </task>
     <task id="LOCAL-00001" summary="增加了vue">
       <created>1542877330303</created>
@@ -327,11 +327,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542957215329</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ssh的name">
+      <created>1543209256328</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1543209256328</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41416000" />
+    <option name="totallyTimeSpent" value="42880000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -357,8 +364,8 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295583" />
       <window_info anchor="bottom" id="找到" order="7" />
       <window_info anchor="bottom" id="运行" order="8" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.6640986" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.22164412" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.6640986" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22033899" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3298647" />
       <window_info anchor="bottom" id="调试" order="12" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
@@ -370,13 +377,24 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加了vue" />
     <MESSAGE value="别人面试经验" />
-    <option name="LAST_COMMIT_MESSAGE" value="别人面试经验" />
+    <MESSAGE value="ssh的name" />
+    <option name="LAST_COMMIT_MESSAGE" value="ssh的name" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pages/photo3d.html">
@@ -614,8 +632,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vue/page/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        <state relative-caret-position="361">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
         </state>
       </provider>
     </entry>
