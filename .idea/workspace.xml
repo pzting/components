@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca8b0fda-afaa-4ec9-9379-7406fa4c8dd6" name="默认的" comment="ssh的name">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ca8b0fda-afaa-4ec9-9379-7406fa4c8dd6" name="默认的" comment="ssh的name" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -31,7 +29,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="1121" />
-          <entry key="html" value="1191" />
+          <entry key="html" value="1205" />
           <entry key="js" value="957" />
           <entry key="txt" value="25" />
         </counts>
@@ -39,7 +37,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="1121" />
-          <entry key="HTML" value="1191" />
+          <entry key="HTML" value="1205" />
           <entry key="JavaScript" value="957" />
           <entry key="PLAIN_TEXT" value="25" />
         </counts>
@@ -104,8 +102,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vue/page/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+            <state relative-caret-position="182">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -311,7 +309,7 @@
       <workItem from="1542848393612" duration="8751000" />
       <workItem from="1542871225385" duration="4406000" />
       <workItem from="1542934560659" duration="7102000" />
-      <workItem from="1543195877521" duration="2176000" />
+      <workItem from="1543195877521" duration="3105000" />
     </task>
     <task id="LOCAL-00001" summary="增加了vue">
       <created>1542877330303</created>
@@ -338,7 +336,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42880000" />
+    <option name="totallyTimeSpent" value="43809000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -365,7 +363,7 @@
       <window_info anchor="bottom" id="找到" order="7" />
       <window_info anchor="bottom" id="运行" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.6640986" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22033899" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.4807396" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3298647" />
       <window_info anchor="bottom" id="调试" order="12" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
@@ -632,8 +630,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vue/page/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        <state relative-caret-position="182">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
         </state>
       </provider>
     </entry>
