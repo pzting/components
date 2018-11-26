@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca8b0fda-afaa-4ec9-9379-7406fa4c8dd6" name="默认的" comment="增加了vue">
-      <change afterPath="$PROJECT_DIR$/css/interview-center.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/interview-fun.js" afterDir="false" />
+    <list default="true" id="ca8b0fda-afaa-4ec9-9379-7406fa4c8dd6" name="默认的" comment="别人面试经验">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,30 +17,31 @@
     <session id="719465225">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.61" value="1" />
           <entry key="project.open.time.78" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.790" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="1121" />
-          <entry key="html" value="1175" />
+          <entry key="html" value="1176" />
           <entry key="js" value="957" />
-          <entry key="txt" value="9" />
+          <entry key="txt" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="1121" />
-          <entry key="HTML" value="1175" />
+          <entry key="HTML" value="1176" />
           <entry key="JavaScript" value="957" />
-          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="PLAIN_TEXT" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -103,20 +101,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vue/page/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+            <state relative-caret-position="97">
+              <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/interview/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+            <state relative-caret-position="152">
+              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -124,7 +122,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/interview-center.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
+            <state relative-caret-position="437">
               <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
             </state>
           </provider>
@@ -133,7 +131,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/interview-fun.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="626">
+            <state relative-caret-position="1330">
               <caret line="70" column="66" lean-forward="true" selection-start-line="70" selection-start-column="66" selection-end-line="70" selection-end-column="66" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -209,10 +207,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="395" />
-    <option name="y" value="-4" />
-    <option name="width" value="1299" />
-    <option name="height" value="764" />
+    <option name="x" value="2074" />
+    <option name="y" value="308" />
+    <option name="width" value="1297" />
+    <option name="height" value="756" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -312,7 +310,8 @@
       <workItem from="1542847567047" duration="412000" />
       <workItem from="1542848393612" duration="8751000" />
       <workItem from="1542871225385" duration="4406000" />
-      <workItem from="1542934560659" duration="5865000" />
+      <workItem from="1542934560659" duration="7102000" />
+      <workItem from="1543195877521" duration="712000" />
     </task>
     <task id="LOCAL-00001" summary="增加了vue">
       <created>1542877330303</created>
@@ -321,11 +320,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542877330304</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="别人面试经验">
+      <created>1542957215328</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1542957215329</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39467000" />
+    <option name="totallyTimeSpent" value="41416000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -337,9 +343,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <frame x="1985" y="308" width="1301" height="772" extended-state="6" />
     <layout>
-      <window_info active="true" id="Project" order="0" visible="true" weight="0.113413304" />
+      <window_info id="Project" order="0" visible="true" weight="0.1625" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -351,7 +357,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295583" />
       <window_info anchor="bottom" id="找到" order="7" />
       <window_info anchor="bottom" id="运行" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3298647" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.6640986" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.22164412" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3298647" />
       <window_info anchor="bottom" id="调试" order="12" />
@@ -369,7 +375,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加了vue" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加了vue" />
+    <MESSAGE value="别人面试经验" />
+    <option name="LAST_COMMIT_MESSAGE" value="别人面试经验" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pages/photo3d.html">
@@ -574,17 +581,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/page/index.html">
+    <entry file="file://$PROJECT_DIR$/css/interview-center.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        <state relative-caret-position="437">
+          <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/interview-center.css">
+    <entry file="file://$PROJECT_DIR$/js/interview-fun.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        <state relative-caret-position="1330">
+          <caret line="70" column="66" lean-forward="true" selection-start-line="70" selection-start-column="66" selection-end-line="70" selection-end-column="66" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -595,20 +605,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/interview-fun.js">
+    <entry file="file://$PROJECT_DIR$/interview/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="70" column="66" lean-forward="true" selection-start-line="70" selection-start-column="66" selection-end-line="70" selection-end-column="66" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="152">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interview/index.html">
+    <entry file="file://$PROJECT_DIR$/vue/page/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        <state relative-caret-position="97">
+          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
         </state>
       </provider>
     </entry>
