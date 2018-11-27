@@ -1,13 +1,13 @@
 /**
  * game logic
  */
-var timeline = require( "timeline" );
+var timeline = require( "specialEffects/fruitSlice/scripts/timeline" );
 var Ucren = require( "lib/ucren" );
 var sound = require( "lib/sound" );
 var fruit = require( "factory/fruit" );
 var score = require( "object/score" );
-var message = require( "message" );
-var state = require( "state" );
+var message = require( "specialEffects/fruitSlice/scripts/message" );
+var state = require( "specialEffects/fruitSlice/scripts/state" );
 var lose = require( "object/lose" );
 var gameOver = require( "object/game-over" );
 var knife = require( "object/knife" );

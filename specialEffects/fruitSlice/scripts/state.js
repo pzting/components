@@ -4,7 +4,7 @@
  * @date 	2012-06-28
  */
 var Ucren = require( "lib/ucren" );
-var timeline = require( "timeline" );
+var timeline = require( "specialEffects/fruitSlice/scripts/timeline" );
 
 /**
  * usage:

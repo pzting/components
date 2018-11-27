@@ -1,7 +1,7 @@
 var Ucren = require( "lib/ucren" );
 var knife = require( "object/knife" );
-var message = require( "message" );
-var state = require( "state" );
+var message = require( "specialEffects/fruitSlice/scripts/message" );
+var state = require( "specialEffects/fruitSlice/scripts/state" );
 
 var canvasLeft, canvasTop;
 

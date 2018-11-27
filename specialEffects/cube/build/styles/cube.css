@@ -15,8 +15,8 @@
 
 	font-family: "RubikExtended";
 	src:
-		url( "../media/RubikExtended.ttf"  ) format( "truetype" ),
-		url( "../media/RubikExtended.otf"  ) format( "otf" );
+		url("../media/RubikExtended.ttf") format( "truetype" ),
+		url("../media/RubikExtended.otf") format( "otf" );
 	font-weight: normal;
 	font-style: normal;
 }
@@ -209,7 +209,7 @@
 
 .cube .sticker.stickerLogo {
 
-	background: #F3F3F3 url( "../media/rubiksLogoClassic.png" );
+	background: #F3F3F3 url("../media/rubiksLogoClassic.png");
 	background-size: 100% 100%;
 	background-repeat: none;
 }

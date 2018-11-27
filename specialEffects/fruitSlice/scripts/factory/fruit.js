@@ -6,7 +6,7 @@ var tween = require( "../lib/tween" );
 var message = require( "../message" );
 var flame = require( "../object/flame" );
 var flash = require( "../object/flash" );
-var juice = require( "../factory/juice" );
+var juice = require( "./juice" );
 
 var ie = Ucren.isIe;
 var safari = Ucren.isSafari;
