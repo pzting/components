@@ -1,424 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca8b0fda-afaa-4ec9-9379-7406fa4c8dd6" name="默认的" comment="ssh的name">
-      <change afterPath="$PROJECT_DIR$/null/null.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acaleph/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/acaleph/demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acaleph/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/petal/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arithmetic/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/arithmetic/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ballMaze/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/ballMaze/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ballMaze/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/ballMaze/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ballMaze/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/ballMaze/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ballMaze/js/matter-0.5.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/ballMaze/js/matter-0.5.0.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bleedLine/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/bleedLine/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bleedLine/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/bleedLine/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/butterfly/css/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/butterfly/css/Thumbs.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/butterfly/css/clouds_back.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/butterfly/css/clouds_back.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/butterfly/css/clouds_front.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/butterfly/css/clouds_front.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/butterfly/css/clouds_left.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/butterfly/css/clouds_left.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/butterfly/css/clouds_right.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/butterfly/css/clouds_right.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/butterfly/css/clouds_top.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/butterfly/css/clouds_top.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/butterfly/css/hazy_lake_top.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/butterfly/css/hazy_lake_top.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/butterfly/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/butterfly/css/reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/butterfly/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/butterfly/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/butterfly/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/butterfly/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/build/cuber.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/build/cuber.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/build/cuber.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/build/cuber.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/build/media/RubikExtended.otf" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/media/RubikExtended.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/build/media/RubikExtended.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/media/RubikExtended.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/build/media/cuber-favicon-0064x0064.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/media/cuber-favicon-0064x0064.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/build/media/cuber-favicon-0144x0144.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/media/cuber-favicon-0144x0144.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/build/media/rubiksLogoClassic.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/media/rubiksLogoClassic.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/build/styles/cube.css" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/build/styles/cube.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/examples/basic/scripts/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/examples/basic/scripts/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/examples/basic/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/examples/basic/scripts/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/examples/basic/scripts/presets.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/examples/basic/scripts/presets.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/examples/basic/scripts/solvers/stewart.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/examples/basic/scripts/solvers/stewart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/examples/basic/scripts/solvers/striegel.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/examples/basic/scripts/solvers/striegel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/examples/basic/styles/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/examples/basic/styles/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/LICENSE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/assets/Favicon/cuber-favicon-0144x0144.ai" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/assets/Favicon/cuber-favicon-0144x0144.ai" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/assets/Google-files/media/doodle-placeholder.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/assets/Google-files/media/doodle-placeholder.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/assets/Google-files/media/google-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/assets/Google-files/media/google-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/assets/Google-files/media/header-buttons.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/assets/Google-files/media/header-buttons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/assets/Google-files/media/search-buttons.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/assets/Google-files/media/search-buttons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/assets/Google-files/styles/google-hp.css" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/assets/Google-files/styles/google-hp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/assets/Logo sticker/rubik_logo.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/assets/Logo sticker/rubik_logo.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/assets/Logo sticker/rubiksLogo.psd" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/assets/Logo sticker/rubiksLogo.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/assets/Logo sticker/rubiksLogoClassic.ai" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/assets/Logo sticker/rubiksLogoClassic.ai" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/assets/OS X icon/thumbnail-0180x116.ai" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/assets/OS X icon/thumbnail-0180x116.ai" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/assets/OS X icon/thumbnail.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/assets/OS X icon/thumbnail.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/assets/OS X icon/thumbnail@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/assets/OS X icon/thumbnail@2x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/media/Rubik.otf" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/media/Rubik.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/media/Rubik.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/media/Rubik.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/media/RubikExtended.otf" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/build/media/RubikExtended.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/media/RubikExtended.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/build/media/RubikExtended.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/media/cuber-favicon-0064x0064.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/build/media/cuber-favicon-0064x0064.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/media/cuber-favicon-0144x0144.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/build/media/cuber-favicon-0144x0144.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/media/rubiksLogoClassic.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/build/media/rubiksLogoClassic.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/ERNO.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/ERNO.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/colors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/controls.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/controls.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/cubelets.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/cubelets.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/cubes.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/cubes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/directions.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/directions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/extras/controls/locked.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/extras/controls/locked.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/extras/deviceMotion.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/extras/deviceMotion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/extras/inspect.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/extras/inspect.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/extras/renderers/iecss3d.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/extras/renderers/iecss3d.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/extras/renderers/ierenderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/extras/renderers/ierenderer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/folds.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/folds.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/groups.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/groups.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/interaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/interaction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/projector.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/projector.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/queues.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/queues.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/renderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/renderer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/slices.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/slices.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/solvers.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/solvers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/twists.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/twists.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/utils/Array.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/utils/Array.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/utils/Number.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/utils/Number.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/utils/String.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/utils/String.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/utils/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/utils/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/CSS3DRenderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/CSS3DRenderer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/LICENSE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/build/three.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/build/three.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/build/three.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/build/three.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/build/three.min.noStrict.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/build/three.min.noStrict.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/Three.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/Three.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/cameras/Camera.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/cameras/Camera.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/cameras/OrthographicCamera.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/cameras/OrthographicCamera.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/cameras/PerspectiveCamera.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/cameras/PerspectiveCamera.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/core/BufferGeometry.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/core/BufferGeometry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/core/Clock.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/core/Clock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/core/EventDispatcher.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/core/EventDispatcher.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/core/Face3.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/core/Face3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/core/Face4.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/core/Face4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/core/Geometry.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/core/Geometry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/core/Geometry2.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/core/Geometry2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/core/Object3D.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/core/Object3D.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/core/Projector.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/core/Projector.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/core/Raycaster.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/core/Raycaster.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/FontUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/FontUtils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/GeometryUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/GeometryUtils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/ImageUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/ImageUtils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/SceneUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/SceneUtils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/animation/Animation.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/animation/Animation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/animation/AnimationHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/animation/AnimationHandler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/animation/AnimationMorphTarget.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/animation/AnimationMorphTarget.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/animation/KeyFrameAnimation.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/animation/KeyFrameAnimation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/animation/MorphAnimation.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/animation/MorphAnimation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/cameras/CombinedCamera.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/cameras/CombinedCamera.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/cameras/CubeCamera.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/cameras/CubeCamera.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/core/Curve.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/core/Curve.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/core/CurvePath.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/core/CurvePath.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/core/Gyroscope.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/core/Gyroscope.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/core/Path.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/core/Path.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/core/Shape.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/core/Shape.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/curves alias" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/curves alias" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/curves alias 2" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/curves alias 2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/curves/ArcCurve.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/curves/ArcCurve.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/curves/ClosedSplineCurve3.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/curves/ClosedSplineCurve3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/curves/CubicBezierCurve.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/curves/CubicBezierCurve.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/curves/CubicBezierCurve3.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/curves/CubicBezierCurve3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/curves/EllipseCurve.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/curves/EllipseCurve.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/curves/LineCurve.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/curves/LineCurve.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/curves/LineCurve3.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/curves/LineCurve3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/curves/QuadraticBezierCurve.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/curves/QuadraticBezierCurve.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/curves/QuadraticBezierCurve3.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/curves/QuadraticBezierCurve3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/curves/SplineCurve.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/curves/SplineCurve.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/curves/SplineCurve3.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/curves/SplineCurve3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/geometries/BoxGeometry.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/geometries/BoxGeometry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/geometries/BoxGeometry2.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/geometries/BoxGeometry2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/geometries/CircleGeometry.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/geometries/CircleGeometry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/geometries/CubeGeometry.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/geometries/CubeGeometry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/geometries/CylinderGeometry.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/geometries/CylinderGeometry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/geometries/ExtrudeGeometry.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/geometries/ExtrudeGeometry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/geometries/IcosahedronGeometry.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/geometries/IcosahedronGeometry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/geometries/LatheGeometry.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/geometries/LatheGeometry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/geometries/OctahedronGeometry.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/geometries/OctahedronGeometry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/geometries/ParametricGeometry.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/geometries/ParametricGeometry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/geometries/PlaneGeometry.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/geometries/PlaneGeometry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/geometries/PlaneGeometry2.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/geometries/PlaneGeometry2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/geometries/PolyhedronGeometry.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/geometries/PolyhedronGeometry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/geometries/RingGeometry.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/geometries/RingGeometry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/geometries/ShapeGeometry.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/geometries/ShapeGeometry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/geometries/SphereGeometry.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/geometries/SphereGeometry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/geometries/TetrahedronGeometry.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/geometries/TetrahedronGeometry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/geometries/TextGeometry.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/geometries/TextGeometry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/geometries/TorusGeometry.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/geometries/TorusGeometry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/geometries/TorusKnotGeometry.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/geometries/TorusKnotGeometry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/geometries/TubeGeometry.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/geometries/TubeGeometry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/helpers/ArrowHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/helpers/ArrowHelper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/helpers/AxisHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/helpers/AxisHelper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/helpers/BoundingBoxHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/helpers/BoundingBoxHelper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/helpers/BoxHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/helpers/BoxHelper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/helpers/CameraHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/helpers/CameraHelper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/helpers/DirectionalLightHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/helpers/DirectionalLightHelper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/helpers/EdgesHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/helpers/EdgesHelper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/helpers/FaceNormalsHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/helpers/FaceNormalsHelper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/helpers/GridHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/helpers/GridHelper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/helpers/HemisphereLightHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/helpers/HemisphereLightHelper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/helpers/PointLightHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/helpers/PointLightHelper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/helpers/SpotLightHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/helpers/SpotLightHelper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/helpers/VertexNormalsHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/helpers/VertexNormalsHelper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/helpers/VertexTangentsHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/helpers/VertexTangentsHelper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/helpers/WireframeHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/helpers/WireframeHelper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/objects/ImmediateRenderObject.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/objects/ImmediateRenderObject.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/objects/LensFlare.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/objects/LensFlare.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/objects/MorphBlendMesh.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/objects/MorphBlendMesh.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/renderers/plugins/DepthPassPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/renderers/plugins/DepthPassPlugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/renderers/plugins/LensFlarePlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/renderers/plugins/LensFlarePlugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/renderers/plugins/ShadowMapPlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/renderers/plugins/ShadowMapPlugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/renderers/plugins/SpritePlugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/renderers/plugins/SpritePlugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/extras/shaders/ShaderFlares.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/extras/shaders/ShaderFlares.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/lights/AmbientLight.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/lights/AmbientLight.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/lights/AreaLight.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/lights/AreaLight.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/lights/DirectionalLight.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/lights/DirectionalLight.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/lights/HemisphereLight.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/lights/HemisphereLight.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/lights/Light.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/lights/Light.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/lights/PointLight.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/lights/PointLight.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/lights/SpotLight.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/lights/SpotLight.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/loaders/BufferGeometryLoader.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/loaders/BufferGeometryLoader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/loaders/Geometry2Loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/loaders/Geometry2Loader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/loaders/GeometryLoader.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/loaders/GeometryLoader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/loaders/ImageLoader.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/loaders/ImageLoader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/loaders/JSONLoader.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/loaders/JSONLoader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/loaders/Loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/loaders/Loader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/loaders/LoadingManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/loaders/LoadingManager.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/loaders/MaterialLoader.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/loaders/MaterialLoader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/loaders/ObjectLoader.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/loaders/ObjectLoader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/loaders/SceneLoader.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/loaders/SceneLoader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/loaders/TextureLoader.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/loaders/TextureLoader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/loaders/XHRLoader.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/loaders/XHRLoader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/materials/LineBasicMaterial.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/materials/LineBasicMaterial.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/materials/LineDashedMaterial.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/materials/LineDashedMaterial.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/materials/Material.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/materials/Material.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/materials/MeshBasicMaterial.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/materials/MeshBasicMaterial.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/materials/MeshDepthMaterial.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/materials/MeshDepthMaterial.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/materials/MeshFaceMaterial.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/materials/MeshFaceMaterial.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/materials/MeshLambertMaterial.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/materials/MeshLambertMaterial.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/materials/MeshNormalMaterial.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/materials/MeshNormalMaterial.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/materials/MeshPhongMaterial.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/materials/MeshPhongMaterial.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/materials/ParticleSystemMaterial.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/materials/ParticleSystemMaterial.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/materials/ShaderMaterial.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/materials/ShaderMaterial.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/materials/SpriteCanvasMaterial.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/materials/SpriteCanvasMaterial.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/materials/SpriteMaterial.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/materials/SpriteMaterial.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/math/Box2.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/math/Box2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/math/Box3.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/math/Box3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/math/Color.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/math/Color.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/math/Euler.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/math/Euler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/math/Frustum.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/math/Frustum.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/math/Line3.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/math/Line3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/math/Math.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/math/Math.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/math/Matrix3.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/math/Matrix3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/math/Matrix4.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/math/Matrix4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/math/Plane.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/math/Plane.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/math/Quaternion.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/math/Quaternion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/math/Ray.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/math/Ray.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/math/Sphere.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/math/Sphere.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/math/Spline.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/math/Spline.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/math/Triangle.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/math/Triangle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/math/UV.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/math/UV.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/math/Vector2.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/math/Vector2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/math/Vector3.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/math/Vector3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/math/Vector4.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/math/Vector4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/math/Vertex.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/math/Vertex.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/objects/Bone.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/objects/Bone.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/objects/LOD.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/objects/LOD.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/objects/Line.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/objects/Line.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/objects/Mesh.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/objects/Mesh.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/objects/MorphAnimMesh.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/objects/MorphAnimMesh.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/objects/ParticleSystem.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/objects/ParticleSystem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/objects/SkinnedMesh.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/objects/SkinnedMesh.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/objects/Sprite.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/objects/Sprite.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/renderers/CanvasRenderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/renderers/CanvasRenderer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/renderers/WebGLRenderTarget.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/renderers/WebGLRenderTarget.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/renderers/WebGLRenderTargetCube.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/renderers/WebGLRenderTargetCube.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/renderers/WebGLRenderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/renderers/WebGLRenderer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/renderers/WebGLShaders.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/renderers/WebGLShaders.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/renderers/renderables/RenderableFace.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/renderers/renderables/RenderableFace.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/renderers/renderables/RenderableFace3.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/renderers/renderables/RenderableFace3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/renderers/renderables/RenderableLine.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/renderers/renderables/RenderableLine.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/renderers/renderables/RenderableObject.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/renderers/renderables/RenderableObject.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/renderers/renderables/RenderableSprite.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/renderers/renderables/RenderableSprite.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/renderers/renderables/RenderableVertex.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/renderers/renderables/RenderableVertex.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/renderers/shaders/ShaderChunk.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/renderers/shaders/ShaderChunk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/renderers/shaders/ShaderLib.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/renderers/shaders/ShaderLib.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/renderers/shaders/UniformsLib.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/renderers/shaders/UniformsLib.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/renderers/shaders/UniformsUtils.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/renderers/shaders/UniformsUtils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/scenes/Fog.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/scenes/Fog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/scenes/FogExp2.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/scenes/FogExp2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/scenes/Scene.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/scenes/Scene.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/textures/CompressedTexture.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/textures/CompressedTexture.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/textures/DataTexture.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/textures/DataTexture.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/threejs/src/textures/Texture.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/threejs/src/textures/Texture.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/scripts/vendor/tween.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/scripts/vendor/tween.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cube/src/styles/cube.css" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/cube/src/styles/cube.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designPatterns/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/designPatterns/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/Thumbs.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/background.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/blank.gif" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/blank.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/developing.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/developing.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/dojo.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/dojo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/flash.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/flash.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/fork.gif" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/fork.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/fruit/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/fruit/Thumbs.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/fruit/apple-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/fruit/apple-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/fruit/apple-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/fruit/apple-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/fruit/apple.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/fruit/apple.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/fruit/banana-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/fruit/banana-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/fruit/banana-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/fruit/banana-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/fruit/banana.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/fruit/banana.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/fruit/basaha-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/fruit/basaha-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/fruit/basaha-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/fruit/basaha-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/fruit/basaha.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/fruit/basaha.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/fruit/boom.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/fruit/boom.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/fruit/peach-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/fruit/peach-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/fruit/peach-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/fruit/peach-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/fruit/peach.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/fruit/peach.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/fruit/sandia-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/fruit/sandia-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/fruit/sandia-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/fruit/sandia-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/fruit/sandia.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/fruit/sandia.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/game-over.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/game-over.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/home-desc.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/home-desc.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/home-mask.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/home-mask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/lose.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/lose.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/new-game.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/new-game.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/new.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/new.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/ninja.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/ninja.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/quit.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/quit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/score.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/score.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/shadow.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/shadow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/smoke.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/smoke.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/x.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/xf.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/xf.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/xx.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/xx.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/xxf.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/xxf.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/xxx.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/xxx.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/images/xxxf.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/images/xxxf.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/all.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/all.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/collide.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/collide.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/control.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/control.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/factory/displacement.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/factory/displacement.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/factory/fruit.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/factory/fruit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/factory/juice.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/factory/juice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/factory/rotate.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/factory/rotate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/game.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/layer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/lib/buzz.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/lib/buzz.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/lib/raphael.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/lib/raphael.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/lib/sound.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/lib/sound.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/lib/tween.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/lib/tween.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/lib/ucren.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/lib/ucren.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/message.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/message.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/object/background.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/object/background.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/object/console.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/object/console.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/object/developing.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/object/developing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/object/dojo.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/object/dojo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/object/flame.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/object/flame.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/object/flash.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/object/flash.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/object/fps.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/object/fps.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/object/game-over.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/object/game-over.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/object/home-desc.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/object/home-desc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/object/home-mask.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/object/home-mask.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/object/knife.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/object/knife.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/object/light.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/object/light.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/object/logo.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/object/logo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/object/lose.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/object/lose.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/object/new-game.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/object/new-game.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/object/new.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/object/new.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/object/ninja.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/object/ninja.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/object/quit.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/object/quit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/object/score.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/object/score.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/sence.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/sence.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/state.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/timeline.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/timeline.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/scripts/tools.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/scripts/tools.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/sound/boom.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/sound/boom.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/sound/boom.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/sound/boom.ogg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/sound/menu.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/sound/menu.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/sound/menu.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/sound/menu.ogg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/sound/over.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/sound/over.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/sound/over.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/sound/over.ogg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/sound/splatter.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/sound/splatter.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/sound/splatter.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/sound/splatter.ogg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/sound/start.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/sound/start.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/sound/start.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/sound/start.ogg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/sound/throw.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/sound/throw.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fruitSlice/sound/throw.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/fruitSlice/sound/throw.ogg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/love/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/love/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/love/js/CanvasRenderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/love/js/CanvasRenderer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/love/js/Projector.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/love/js/Projector.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/love/js/Sparks.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/love/js/Sparks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/love/js/helvetiker_regular.typeface.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/love/js/helvetiker_regular.typeface.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/love/js/nb.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/love/js/nb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/love/js/tween.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/love/js/tween.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mineClearance/img/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/mineClearance/img/Thumbs.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mineClearance/img/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/mineClearance/img/bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mineClearance/img/cao.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/mineClearance/img/cao.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mineClearance/img/dilei.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/mineClearance/img/dilei.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mineClearance/img/hongqi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/mineClearance/img/hongqi.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mineClearance/img/lei.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/mineClearance/img/lei.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mineClearance/img/qi.png" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/mineClearance/img/qi.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mineClearance/img/shizhong.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/mineClearance/img/shizhong.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mineClearance/img/time.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/mineClearance/img/time.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mineClearance/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/mineClearance/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mineClearance/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/mineClearance/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petal/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/petal/demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petal/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/acaleph/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plane/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/plane/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plane/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/plane/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plane/js/OBJLoader.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/plane/js/OBJLoader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plane/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/plane/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plane/js/simplex-noise.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/plane/js/simplex-noise.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plane/js/three.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/plane/js/three.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shark/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/shark/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shark/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/shark/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shark/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/shark/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/squareInTheShuttle/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/squareInTheShuttle/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/squareInTheShuttle/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/squareInTheShuttle/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/squareInTheShuttle/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/squareInTheShuttle/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tank/audio/attack.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/tank/audio/attack.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tank/audio/bulletCrack.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/tank/audio/bulletCrack.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tank/audio/move.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/tank/audio/move.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tank/audio/playerCrack.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/tank/audio/playerCrack.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tank/audio/prop.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/tank/audio/prop.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tank/audio/start.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/tank/audio/start.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tank/audio/tankCrack.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/tank/audio/tankCrack.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tank/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/tank/css/default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tank/images/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/tank/images/Thumbs.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tank/images/menu.gif" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/tank/images/menu.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tank/images/tankAll.gif" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/tank/images/tankAll.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tank/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/tank/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tank/js/Collision.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/tank/js/Collision.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tank/js/Helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/tank/js/Helper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tank/js/bullet.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/tank/js/bullet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tank/js/const.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/tank/js/const.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tank/js/crackAnimation.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/tank/js/crackAnimation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tank/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/tank/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tank/js/keyboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/tank/js/keyboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tank/js/level.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/tank/js/level.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tank/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/tank/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tank/js/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/tank/js/map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tank/js/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/tank/js/menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tank/js/num.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/tank/js/num.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tank/js/prop.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/tank/js/prop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tank/js/stage.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/tank/js/stage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tank/js/tank.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/tank/js/tank.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tetris/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/tetris/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tetris/css/tetris.css" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/tetris/css/tetris.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tetris/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/tetris/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tetris/js/tetris.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/tetris/js/tetris.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tornNet/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/tornNet/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tornNet/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/specialEffects/tornNet/js/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="ca8b0fda-afaa-4ec9-9379-7406fa4c8dd6" name="默认的" comment="前端特效路径修改" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -448,58 +31,37 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="1121" />
-          <entry key="html" value="1225" />
-          <entry key="js" value="957" />
-          <entry key="txt" value="25" />
+          <entry key="html" value="1254" />
+          <entry key="js" value="2204" />
+          <entry key="txt" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="1121" />
-          <entry key="HTML" value="1225" />
-          <entry key="JavaScript" value="957" />
-          <entry key="PLAIN_TEXT" value="25" />
+          <entry key="HTML" value="1254" />
+          <entry key="JavaScript" value="2204" />
+          <entry key="PLAIN_TEXT" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="3" />
-          <entry key="html" value="10" />
-          <entry key="js" value="4" />
+          <entry key="html" value="11" />
+          <entry key="js" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="3" />
-          <entry key="HTML" value="10" />
-          <entry key="JavaScript" value="4" />
+          <entry key="HTML" value="11" />
+          <entry key="JavaScript" value="5" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/ball.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/vue.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208183">
-              <caret line="10961" column="9" selection-start-line="10961" selection-start-column="9" selection-end-line="10961" selection-end-column="9" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vue/page/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -533,9 +95,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/specialEffects/butterfly/index.html">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/object.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="125" column="127" selection-start-line="125" selection-start-column="127" selection-end-line="125" selection-end-column="127" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -582,8 +169,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -620,6 +207,8 @@
         <option value="$PROJECT_DIR$/interview/index.html" />
         <option value="$PROJECT_DIR$/vue/page/index.html" />
         <option value="$PROJECT_DIR$/null/null.html" />
+        <option value="$PROJECT_DIR$/pages/index.html" />
+        <option value="$PROJECT_DIR$/js/object.js" />
       </list>
     </option>
   </component>
@@ -654,6 +243,16 @@
               <item name="components" type="b2602c69:ProjectViewProjectNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -670,6 +269,9 @@
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/specialEffects" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\study\component\mineClearance" />
       <recent name="E:\study\component\tornNet" />
@@ -722,7 +324,7 @@
       <workItem from="1542934560659" duration="7102000" />
       <workItem from="1543195877521" duration="4876000" />
       <workItem from="1543215593020" duration="2052000" />
-      <workItem from="1543279930632" duration="1428000" />
+      <workItem from="1543279930632" duration="5199000" />
     </task>
     <task id="LOCAL-00001" summary="增加了vue">
       <created>1542877330303</created>
@@ -745,11 +347,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543209256328</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="前端特效路径修改">
+      <created>1543287275815</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1543287275815</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49060000" />
+    <option name="totallyTimeSpent" value="52831000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -762,6 +371,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="308" width="1301" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" id="Project" order="0" visible="true" weight="0.1625" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -805,7 +415,8 @@
     <MESSAGE value="增加了vue" />
     <MESSAGE value="别人面试经验" />
     <MESSAGE value="ssh的name" />
-    <option name="LAST_COMMIT_MESSAGE" value="ssh的name" />
+    <MESSAGE value="前端特效路径修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="前端特效路径修改" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pages/photo3d.html">
@@ -1062,7 +673,28 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/specialEffects/butterfly/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/object.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="125" column="127" selection-start-line="125" selection-start-column="127" selection-end-line="125" selection-end-column="127" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
