@@ -14,26 +14,41 @@
  * @return {number}
  */
 /*var numJewelsInStones = function (J, S) {
-    var num = 0;
-    for (var i = 0; i < J.length; i++) {
-        var reg = new RegExp(J.charAt(i), 'g');
-        console.log(reg+' '+S.match(reg))
-        if(S.match(reg)){
-            num += (S.match(reg)).length
-        }
-    }
-    return num;
-};
-console.log(
+ var num = 0;
+ for (var i = 0; i < J.length; i++) {
+ var reg = new RegExp(J.charAt(i), 'g');
+ console.log(reg+' '+S.match(reg))
+ if(S.match(reg)){
+ num += (S.match(reg)).length
+ }
+ }
+ return num;
+ };
+ console.log(
 
-    numJewelsInStones("z", "ZZ")
-)*/
+ numJewelsInStones("z", "ZZ")
+ )*/
 
 /*todo 665. 非递减数列
-* 给定一个长度为 n 的整数数组，你的任务是判断在最多改变 1 个元素的情况下，该数组能否变成一个非递减数列。
+ * 给定一个长度为 n 的整数数组，你的任务是判断在最多改变 1 个元素的情况下，该数组能否变成一个非递减数列。
 
  我们是这样定义一个非递减数列的： 对于数组中所有的 i (1 <= i < n)，满足 array[i] <= array[i + 1]。
  */
-var checkPossibility = function(nums) {
-
-};
+// var checkPossibility = function (nums) {
+    var notReduce = function (arr) {
+        let isNotReduce = false;
+        for(var i=0;i<arr.length;i++){
+            if(i <arr.length-1){
+                if(arr[i]<=arr[i+1]){
+                    isNotReduce = true;
+                }else{
+                    isNotReduce = false;
+                }
+            }
+        }
+        return isNotReduce;
+    }
+// };
+console.log(
+    notReduce([1,2,3])
+)
