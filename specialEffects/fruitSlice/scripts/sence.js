@@ -3,8 +3,8 @@ var sound = require( "lib/sound" );
 var fruit = require( "factory/fruit" );
 var flash = require( "object/flash" );
 
-var state = require( "state" );
-var message = require( "message" );
+var state = require( "specialEffects/fruitSlice/scripts/state" );
+var message = require( "specialEffects/fruitSlice/scripts/message" );
 
 // the fixed elements
 var background = require( "object/background" );
@@ -27,15 +27,15 @@ var score = require( "object/score" );
 var lose = require( "object/lose" );
 
 // the game logic
-var game = require( "game" );
+var game = require( "specialEffects/fruitSlice/scripts/game" );
 
 // the elements in 'developing' module
 var developing = require( "object/developing" );
 var gameOver = require( "object/game-over" );
 
 // commons
-var message = require( "message" );
-var timeline = require( "timeline" );
+var message = require( "specialEffects/fruitSlice/scripts/message" );
+var timeline = require( "specialEffects/fruitSlice/scripts/timeline" );
 var setTimeout = timeline.setTimeout.bind( timeline );
 var setInterval = timeline.setInterval.bind( timeline );
 

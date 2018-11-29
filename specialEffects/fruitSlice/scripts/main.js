@@ -1,16 +1,16 @@
-var timeline = require( "timeline" );
-var tools = require( "tools" );
-var sence = require( "sence" );
+var timeline = require( "specialEffects/fruitSlice/scripts/timeline" );
+var tools = require( "specialEffects/fruitSlice/scripts/tools" );
+var sence = require( "specialEffects/fruitSlice/scripts/sence" );
 var Ucren = require( "lib/ucren" );
 var buzz = require( "lib/buzz" );
-var control = require( "control" );
+var control = require( "specialEffects/fruitSlice/scripts/control" );
 var csl = require( "object/console" );
-var message = require( "message" );
-var state = require( "state" );
+var message = require( "specialEffects/fruitSlice/scripts/message" );
+var state = require( "specialEffects/fruitSlice/scripts/state" );
 
-var game = require( "game" );
+var game = require( "specialEffects/fruitSlice/scripts/game" );
 
-var collide = require( "collide" );
+var collide = require( "specialEffects/fruitSlice/scripts/collide" );
 
 var setTimeout = timeline.setTimeout.bind( timeline );
 

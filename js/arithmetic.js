@@ -34,21 +34,26 @@
 
  我们是这样定义一个非递减数列的： 对于数组中所有的 i (1 <= i < n)，满足 array[i] <= array[i + 1]。
  */
-// var checkPossibility = function (nums) {
-    var notReduce = function (arr) {
-        let isNotReduce = false;
-        for(var i=0;i<arr.length;i++){
-            if(i <arr.length-1){
-                if(arr[i]<=arr[i+1]){
-                    isNotReduce = true;
-                }else{
-                    isNotReduce = false;
+//todo 不会了
+/*
+var checkPossibility = function (nums) {
+    let isNotReduce = function (arr) {
+        // debugger;
+        let result = false;
+        for (let i = 0; i < arr.length; i++) {
+            for (let j = i + 1; j < arr.length - i - 1; j++) {
+                debugger;
+                if (arr[i] <= arr[j]) {
+                    result = true;
+                } else {
+                    result = false;
                 }
             }
         }
-        return isNotReduce;
+        return result;
     }
-// };
+    return isNotReduce(nums)
+};
 console.log(
-    notReduce([1,2,3])
-)
+    checkPossibility([1, 2, 1])
+)*/
