@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <link rel="shortcut icon" href="/static/images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="/static/css/base2.css"> 
+    <link rel="stylesheet" type="text/css" href="/static/css/header-nav-enter2.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/top-nav-2.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/left-nav2.css?v=9528">
+    <link rel="stylesheet" type="text/css" href="/static/css/footer-nav.css">
+    <link rel="stylesheet" href="/static/layui-v2.2.6/layui/css/layui.css">
+    <title>
+        {% block title%}{% endblock %}
+    </title>
+
+    <!-- header-nav-enter css-->
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?c7a77eff2e8cc0670fac6dec780dbd7a";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <script src="/static/js/jquery-3.2.1.min.js"></script>
+    <script src="/static/js/paginator.js"></script>
+    <script src="/static/js/base64.min.js"></script>
+    <script src="/static/js/sweetalert.min.js"></script>
+    <script src="/static/js/layer/layer.js"></script>
+    <script src="/static/js/laydate/laydate.js"></script>
+    <script src="/static/js/authority-1.1.js?v=1.0"></script>
+    <script src="/static/js/get-host.js"></script>
+    <script>
+        (function () {
+            var _united_id = '';
+            try{ 
+                _united_id = "bearer " + /_united_id=([^;]*).?/g.exec(document.cookie)[1];
+                var userDecoded = _united_id.split('.')[1];
+                var user = Base64.decode(userDecoded);
+                localStorage.setItem('user', user);
+                if ((JSON.parse(user).exp * 1000) < (new Date()).getTime()) {
+                    location.href= localStorage.getItem('logout_href');
+                }
+            } catch(err) {
+                location.href= localStorage.getItem('logout_href');
+                console.error('no _united_id cookie');
+            }
+            
+        })();
+    </script>
+    {% block header %}{% endblock %}
+</head>
+
+<body>
+    <div id="third-nav-wrap" class="third-nav-wrap">
+        <!-- top nav -->
+        <div class="temp-top-nav" id="temp-top-nav">
+            <div class="nav-content">
+                <div class="nav-logo">
+                    <a href="/"><img src="/static/images/new_home/pc-logo-1x.png" alt="logo" style="width:100%;height:100%;vertical-align: top;"></a>
+                </div>
+                <span class="login-register">
+                    <a href="/account/register/index.html" class="register-a">注册</a>
+                    <a href="/" class="login-a">登录</a>
+                </span>
+                <span class="logout">
+                    <a href="//test.syzljh.com/user/api/logout" id="logout-href">
+                        <img src="/static/images/header/back-home.png">
+                    </a>
+                </span>
+                <span class="solid"></span>
+                <span class="logout">
+                    <a href="/pages/enterprise/account/">
+                        <span id="temp-comp-name" class="comp-name"></span>
+                        <img src="/static/images/header/people.png" style="margin-left:10px;width: 18px;height: 20px;margin-right: 0;">
+                    </a>
+                </span>
+                <span class="logout"><a href="/pages/message" class="email-wrap"><img src="/static/images/header/email_drug.png" style="margin-left:30px;margin-right:20px;width:18px;vertical-align:bottom;height:20px;margin-top:20px;">
+                    <!-- 消息数量显示 <=99 显示数量 >99 显示99+ -->
+                    <span></span>
+                </a></span>
+                <div class="top-tab current">
+                    <a href="/pages/analysis/">
+                    <div><img src="/static/images/druglist/top_icon2.png"></div>
+                    <div>药检通</div>
+                    </a>
+                </div>
+                <div class="top-tab">
+                    <a href="/pages/contract/create/step1" id="contract-href">
+                    <div><img src="/static/images/contract/cont.png"></div>
+                    <div>药签宝</div>
+                    </a>
+                </div>
+                <div class="top-tab">
+                    <a href="//hotest.syzljh.com/account/home" id="syzljh-href">
+                        <div><img src="/static/images/druglist/top_icon1.png"></div>
+                        <div>首营资料交换</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script >
+        (function() {
+            var ctxObj = localStorage.getItem('ctxObj');
+            // 消息数量 start
+            var mess_count = sessionStorage.getItem('mess_count');
+            if (mess_count>0 && mess_count<=99) {
+                $('.email-wrap span').html(mess_count).show()
+            }else if(mess_count>99){
+                $('.email-wrap span').html('99+').show()
+            }
+            
+            // 消息数量 end
+            if(ctxObj){
+                ctxObj = JSON.parse(ctxObj);
+                $('#temp-comp-name').html(ctxObj.name);
+            }
+            var wangqian_host = localStorage.getItem('reffer');
+            // 药签宝域名
+            var contract_host = wangqian_host.slice(wangqian_host.indexOf('.'))
+
+            $('.register-a').attr('href','//' + wangqian_host + '/account/password/index.html?redirect_url=' + location.protocol + '//' + location.host)
+
+            // $('#logout-href').attr('href','//' + wangqian_host + '/user/api/logout');
+
+            $('#syzljh-href').attr('href','//' + wangqian_host + '/account/home');
+
+            $('#contract-href').attr('href','//contract' + contract_host + '/pages/contract/create/step1/?reffer=' + wangqian_host);
+            
+            $('#temp-comp-name').parent().attr('href','/pages/enterprise/account/');
+            $('#logout-href').click(function(e){
+                e.preventDefault()
+                // clear _united_id cookie
+                document.cookie ='_united_id=;path=/;expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+                location.href = localStorage.getItem('logout_href')
+            })
+        })();
+    </script>
+    <script>
+        (function () {
+            var authority = JSON.parse(sessionStorage.getItem('authority'));
+            var author = new Authority();
+            var succ = function (data) {
+                var ctxObj = {
+                    name: data.name,
+                    type: data.type
+                };
+                $('#temp-comp-name').html(ctxObj.name);
+                localStorage.setItem('ctxObj', JSON.stringify(ctxObj));
+                authority = JSON.parse(sessionStorage.getItem('authority'));
+            };
+            var err = function (error) {
+                sessionStorage.removeItem('authority');
+                if(error.status == 401){
+                    location.href = localStorage.getItem('logout_href')
+                }else{
+                    layer.msg(error.responseJSON.errmsg);
+                }
+            };
+            if(!authority || location.href.indexOf('/analysis')>-1){
+                sessionStorage.removeItem('authority')
+                author.init(succ, err);
+            }
+        })()
+    </script>
+    <!-- left nav -->
+    <div id="temp-left-nav" class="temp-left-nav">
+        <div>
+            <ul class="temp-left-list" id="temp-left-list">
+                <li id="temp-left-analysis" class="no-expand home">
+                    <span class="icon" style="background-position: -6px -20px;"></span>
+                    <a href="/pages/analysis/">数据分析</a>
+                </li>
+                <li id="temp-left-search" class="no-expand home">
+                    <span class="icon" style="background-position: -5px -126px;"></span>
+                    <a href="/pages/search/list/">药检单查询</a>
+                </li>
+                <li id="temp-left-manage" class="no-expand home can-expand hide">
+                    <p>
+                        <span class="icon" style="background-position: -5px -65px;"></span>
+                        <span>药检单管理</span>
+                        <span class="arrow right"></span>
+                    </p>
+                    <ul>
+                        <li id="manageDrug">
+                            <a href="/pages/manage/druglist/list/?is_upload=true">我的药检单</a>
+                        </li>
+                        <li id="manageCloud">
+                            <a href="/pages/manage/druglist/list/?is_upload=false">药检单云文件柜</a>
+                        </li>
+                    </ul>
+                </li>
+                <li id="temp-left-send" class="no-expand home can-expand hide">
+                    <p>
+                        <span class="icon" style="background-position: -5px -42px;"></span>
+                        <span>发送药检单</span>
+                        <span class="arrow right"></span>
+                    </p>
+                    <ul>
+                        <li id="sendStep">
+                            <a href="/pages/send/step1/" data-permissions="unauthorized">申请发送</a>
+                        </li>
+                        <li id="sendApply">
+                            <a href="/pages/send/applylist/" data-permissions="unauthorized">发送申请列表</a>
+                        </li>
+                        <li id="sendRecord">
+                            <a href="/pages/send/recordlist/" data-permissions="unauthorized">发送记录</a>
+                        </li>
+                    </ul>
+                </li>
+                <li id="temp-left-recv" class="no-expand home">
+                    <span class="icon" style="background-position: -5px -105px;"></span>
+                    <a href="/pages/recv/list/">查收药检单</a>
+                </li>
+                <li id="temp-left-askfor" class="no-expand home can-expand hide">
+                    <p>
+                        <span class="icon" style="background-position: -5px 0;"></span>
+                        <span>药检单索取记录</span>
+                        <span class="arrow right"></span>
+                    </p>
+                    <ul>
+                        <li id="askforMy">
+                            <a href="/pages/askfor/my/">我的索取记录</a>
+                        </li>
+                        <li id="askforCustomer">
+                            <a href="/pages/askfor/customer/" data-permissions="unauthorized">客户索取记录</a>
+                        </li>
+                    </ul>
+                </li>
+                <li id="temp-left-connect" class="no-expand home">
+                    <span class="icon" style="background-position: -5px -84px;"></span>
+                    <a href="/pages/connect/list/">企业通讯录</a>
+                </li>
+                <li id="temp-left-enterprise" class="no-expand home can-expand">
+                    <p>
+                        <span class="icon" style="background-position: -5px -146px;"></span>
+                        <span>企业信息管理</span>
+                        <span class="arrow right"></span>
+                    </p>
+                    <ul>
+                        <li id="enterAccou">
+                            <a href="/pages/enterprise/account/" data-permissions="unauthorized">账户中心</a>
+                        </li>
+                        <li id="enterSeal">
+                            <a href="/pages/enterprise/seal/" data-permissions="unauthorized">签章管理</a>
+                        </li>
+                        <li id="enterChild">
+                            <a href="/pages/enterprise/child/" data-permissions="unauthorized">子账户管理</a>
+                        </li>
+                        <li id="enterPermi">
+                            <a href="/pages/enterprise/permission/" data-permissions="unauthorized">角色与权限管理</a>
+                        </li>
+                        <li id="enterAuth">
+                            <a href="/pages/enterprise/auth/" data-permissions="unauthorized">CA认证</a>
+                        </li>
+                    </ul>
+                </li>
+                <li id="temp-left-charge" class="no-expand home">
+                    <span class="icon" style="height:22px;background-position: -5px -167px;"></span>
+                    <a href="/pages/charge/">费用中心</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="/static/js/left-nav-1.2.js"></script>
+
+    <div id="temp-page-wrap" class="temp-page-wrap">
+        <div id="temp-page-content" class="temp-page-content">
+            <!-- QQ 弹窗 -->
+            <div class="service-style" id="service"><img src="/static/images/service.png"><br>客服</div>
+            <div class="service-info" id="service-info">
+                <p>咨询热线：</p>
+                <p class="orange">4006755008</p>
+                <p>在线客服：</p>
+                <p>9:00-18:00</p>
+                <a target="_blank" href="https://wpa.qq.com/msgrd?v=3&uin=169685329&site=syzljh.cn&menu=yes"><img src="/static/images/qq_link.png"></a>
+                <a target="_blank" href="https://wpa.qq.com/msgrd?v=3&uin=1556124689&site=syzljh.cn&menu=yes"><img src="/static/images/qq_link.png"></a>
+            </div>
+
+            <script>
+                (function (win) {
+                    //关闭咨询悬浮窗
+                    var timer = null
+                    var changehover = function(dom){
+                        $(dom).hover(function(){
+                            clearTimeout(timer)
+                            $('#service-info').show('fast')
+                        },function(){
+                            timer = setTimeout(function(){
+                                $('#service-info').hide('fast') 
+                            },300) 
+                        })
+                    }
+                    changehover('#service')
+                    changehover('#service-info')
+                })(window);
+            </script>
+            {% block content %} {% endblock %}
+        </div>
+    </div>
+    <script>
+        // 回车事件 - shou
+        var keydownEnter = function (dom) {
+            $(document).keydown(function(e){
+                e = e ? e :(window.event ? window.event : null); 
+                if(e.keyCode == 13){
+                    $(dom).click();
+                }
+            })
+        };
+        keydownEnter('#search');
+        //未认证企业提示
+        let unauthorizedFun = function (dom) {
+            $(document).on('click',dom,function(e){
+                //如果提供了事件对象，则这是一个非IE浏览器
+                if (e && e.preventDefault) {
+                    //阻止默认浏览器动作(W3C)
+                    e.preventDefault();
+                }else {
+                    //IE中阻止函数器默认动作的方式
+                    window.event.returnValue = false;
+                    return false;
+                }
+                let text = '该功能认证后才可使用，请先认证。';
+                layer.open({
+                    type: 1,
+                    offset: 'auto',
+                    id: 'layerDemo',
+                    content: '<div style="padding: 20px 100px;">'+ text +'</div>',
+                    btn: '去认证',
+                    btnAlign: 'c',
+                    shade: 0, //不显示遮罩
+                    yes: function(){
+                        let url ='//'+ window.localStorage.getItem('reffer')+'/enterprise/auth/';
+                        window.open(url);
+                        layer.closeAll();
+                    }
+                });
+            })
+        }
+        $(function () {
+            let certification = window.sessionStorage.getItem('is_temp');
+            let permissions = window.sessionStorage.getItem('permissions');
+            if(certification == 'true' && permissions == 0){
+                unauthorizedFun('[data-permissions="unauthorized"]');
+            }
+        });
+    </script>
+</body>
+</html>

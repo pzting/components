@@ -1,0 +1,1080 @@
+{% extends "frame/base.html" %}
+
+{% block title %}挂网产品详情{% endblock %}
+
+{% block style %}
+    <link rel="stylesheet" href="/static/css/common.css"/>
+    <style>
+        #pro_info {
+            margin: 10px 0;
+        }
+
+        .layui-row {
+            margin: 15px 0;
+        }
+
+        /*
+         * 品种基本信息页样式
+         */
+        .enterprise {
+            font-size: 16px;
+            font-weight: 400;
+            margin: 10px 0;
+        }
+
+        /* 挂网产品属性设置表单样式 */
+        .attributes .layui-input {
+            width: 100px;
+            display: inline;
+            text-align: center;
+            padding: 0 10px;
+            margin-right: 10px;
+        }
+
+        .attributes select {
+            height: 38px;
+            border-color: #D2D2D2;
+            border-radius: 2px;
+            text-align: center;
+            padding: 0 10px;
+        }
+
+        .attributes label {
+            margin: 0 20px;
+        }
+
+        /* 修改默认多选框样式，使框与文字对齐 */
+        input[type="checkbox"] {
+            height: 16px;
+            vertical-align: text-top;
+            margin-top: 0;
+        }
+
+        #validity {
+            width: 60%;
+        }
+
+        .area textarea {
+            width: -webkit-fill-available;
+            height: 150px;
+            border-color: #D2D2D2;
+            border-radius: 2px;
+            padding: 10px;
+            resize: none
+        }
+
+        /*
+         * 添加图片信息区域样式
+         */
+        #img_add {
+            cursor: pointer;
+        }
+
+        .img_show {
+            width: 204px;
+            height: 290px;
+            margin: 10px;
+            float: left;
+            position: relative;
+        }
+
+        .delete_btn {
+            position: absolute;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            padding: 0.3rem 0.5rem;
+            cursor: pointer;
+        }
+
+        .img_show img {
+            width: 100%;
+            height: 100%;
+        }
+
+        /*
+         *
+         */
+        .remark_area {
+            margin: 10px 0;
+            height: 100%;
+        }
+
+        /*
+         * 商品分类设置区域样式
+         */
+        .layui-collapse {
+            margin-top: 10px;
+        }
+
+        .layui-colla-content input {
+            margin-left: 3%;
+        }
+
+        .add_area {
+            width: 60%;
+            margin: 20px 20%;
+            text-align: center;
+        }
+
+        .add_area select, .add_area input {
+            width: -webkit-fill-available;
+            height: 38px;
+            margin: 10px 0;
+            padding: 0 10px;
+        }
+
+        /* 图片信息的保存按钮*/
+        #imgSave {
+            margin-top: 150px;
+        }
+
+        /* 商品分类的保存按钮 */
+        #classifySave, #textSave {
+            margin-top: 20px;
+        }
+
+        /*
+         * 修改公用样式
+         */
+        .create_btn {
+            top: 0;
+        }
+
+        /* 选项卡样式修改 */
+        .tabs_title {
+            width: 100%;
+            position: fixed;
+            top: 0;
+            z-index: 99;
+            background-color: #fff;
+        }
+
+        .tabs_title_empty {
+            height: 40px;
+        }
+    </style>
+{% endblock %}
+
+{% block mianHtml %}
+    <div class="my_tabs">
+        <div class="tabs_title">
+            <table>
+                <tr>
+                    <td class="title_td">品种基本信息</td>
+                    <td class="title_td">图片信息</td>
+                    <td class="title_td">商品描述</td>
+                    <td class="title_td">商品分类</td>
+                </tr>
+            </table>
+        </div>
+        <div class="tabs_title_empty"></div>
+        <div class="tabs_area">
+            <div class="tab">
+                <div id="pro_info">
+                    <div class="layui-row enterprise">
+                        <div class="layui-col-md4">
+                            <div>挂网企业：<span class="hang_enterprise"></span><span class="hang_enterprise_is_auth"
+                                                                                 style="color: #04BD98">（CA已认证）</span>
+                            </div>
+                        </div>
+                        <div class="layui-col-md4">
+                            <div>企业类型：<span class="hang_type" style="color: #04BD98"></span></div>
+                        </div>
+                    </div>
+                    <div class="layui-row">
+                        <div class="layui-col-md4">
+                            <div>产品名称：<span class="material_name"></span></div>
+                        </div>
+                        <div class="layui-col-md4">
+                            <div>规格：<span class="specification"></span></div>
+                        </div>
+                        <div class="layui-col-md4">
+                            <div>生产厂家：<span class="product_enterprise"></span></div>
+                        </div>
+                    </div>
+                    <div class="layui-row">
+                        <div class="layui-col-md4">
+                            <div>批准文号：<span class="reg_number"></span></div>
+                        </div>
+                        <div class="layui-col-md4">
+                            <div>剂型：<span class="dosage_form"></span></div>
+                        </div>
+                        <div class="layui-col-md4">
+                            <div>材质：<span class="material"></span></div>
+                        </div>
+                    </div>
+                    <div class="layui-row">
+                        <div class="layui-col-md12">
+                            <div>备注：<span class="drug_remarks"></span></div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="layui-bg-gray">
+                <div class="attributes">
+                    <div class="layui-row">
+                        <div class="layui-col-md12">
+                            <h3>属性设置</h3>
+                        </div>
+                    </div>
+                    <div class="layui-row">
+                        <div class="layui-col-md12">
+                            <p>最小采购单位：
+                                <select id="least_unit" class="layui-select-tips">
+                                    <option value="盒">盒</option>
+                                    <option value="包">包</option>
+                                    <option value="袋">袋</option>
+                                    <option value="个">个</option>
+                                    <option value="瓶">瓶</option>
+                                    <option value="支">支</option>
+                                    <option value="箱">箱</option>
+                                </select>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="layui-row">
+                        <div class="layui-col-md12">
+                            <div>
+                                采购基数：
+                                <select id="buy_method">
+                                    <option value="1">中包</option>
+                                    <option value="2">拆零</option>
+                                </select>
+                                <input id="buy_base" type="text" class="layui-input judgeNumInt"/><span
+                                    class="least_unit ">盒</span>
+                                <label><input id="is_whole" type="checkbox"/><span>整件</span></label>
+                                <input id="whole_nums" type="text" class="layui-input  judgeNumInt"/><span
+                                    class="least_unit">盒</span>/件
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 隐藏 有效期 库存量，将零售价放到 配送商选择里-->
+                    <div class="layui-row">
+                        <!--<div class="layui-col-md4">
+                            <div>产品有效期：
+                                <input type="text" class="layui-input" id="validity">
+                            </div>
+                        </div>
+                        <div class="layui-col-md4">
+                            <div>库存量：<input type="text" id="inventory" class="layui-input judgeNumInt"/><span class="least_unit">盒</span></div>
+                        </div>-->
+                        <div class="layui-col-md4">
+                            <div>建议零售价：<input id="suggest_price" type="text"
+                                              class="layui-input judgeEmpty judgeNumFloat"/>元
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="layui-bg-gray">
+                <!--配送商选择-->
+                <div class="attributes">
+                    <div class="layui-row">
+                        <div class="layui-col-md12">
+                            <h3>配送商选择</h3>
+                            <div class="create_btn small_btn">
+                                <button class="layui-btn" id="distributorsBtn" lay-filter="distributorsBtn">添加配送商
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="layui-row">
+                        <div class="layui-col-md12">
+                            <!--配送商表格-->
+                            <table id="distributorsTable" lay-filter="distributorsTable"></table>
+                        </div>
+                    </div>
+                    <script type="text/html" id="barDistributor">
+                        <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
+                    </script>
+                    <!--
+                    <div class="layui-row">
+                        <div class="layui-col-md12">
+                            配送商：<span style="color: #04BD98" id="distributors">德弘医药</span>
+                        </div>
+                    </div>
+                    <div class="layui-row">
+                        <div class="layui-col-md3">
+                            <div>挂网价格：<input type="text" id="hang_price" class="layui-input judgeNumInt"/><span class="least_unit">盒</span></div>
+                        </div>
+                    </div>-->
+                </div>
+                <hr class="layui-bg-gray">
+                <div class="area">
+                    <div class="layui-row">
+                        <div class="layui-col-md12">
+                            <h3>挂网区域</h3>
+                            <!-- 隐藏新建挂网区域
+                            <div class="create_btn small_btn">
+                                <button class="layui-btn" lay-filter="demo1" id="create_btn">新建挂网区域</button>
+                            </div>-->
+                        </div>
+                    </div>
+                    <div class="layui-row">
+                        <div class="layui-col-md12">
+                            <table id="area_list" lay-filter="test"></table>
+                            <textarea id="remarks" placeholder="备注说明，包含退货规则"></textarea>
+                        </div>
+                    </div>
+                    <script type="text/html" id="barDemo">
+                        <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
+                        <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
+                    </script>
+                </div>
+                <button id="infoSave" class="submit_bn layui-btn">保&nbsp;&nbsp;存</button>
+            </div>
+            <div class="tab imgTab">
+                <div class="layui-row">
+                    <div id="imgList">
+                    </div>
+                    <div id="img_add" class="img_show ">
+                        <img src="/media/img/add_img.png"/>
+                        <input type="file" name="file（可随便定义）" class="layui-upload-file">
+                    </div>
+                </div>
+                <!--<input type="file" id="add_img" name="picture" accept="image/*" style="display: none;"/>-->
+                <div class="layui-row">
+                    <button id="imgSave" class="submit_bn layui-btn">保&nbsp;&nbsp;存</button>
+                </div>
+            </div>
+            <div class="tab">
+                <div class="layui-row">
+                    <textarea id="pro_remark" name="pro_remark"></textarea>
+                </div>
+                <div class="layui-row">
+                    <button id="textSave" name="content" class="submit_bn layui-btn">保&nbsp;&nbsp;存</button>
+                </div>
+            </div>
+            <div class="tab">
+                <div id="classifyContent" class="layui-collapse" lay-filter="test" lay-accordion></div>
+                <div class="layui-row">
+                    <button id="classifySave" name="content" class="submit_bn layui-btn">保&nbsp;&nbsp;存</button>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block script %}
+    <script type="application/javascript" src="/static/external/ckeditor/ckeditor.js"></script>
+    <script>
+        //判断是否是编辑操作
+        let edit = getUrlParam("edit");
+        //四个面板保存后 可以向后台获取数据
+        let imgSaveFlag = false, textSaveFlag = false, classifySaveFlag = false;
+
+        /* 添加药品分类*/
+        function addFirstMenuHtml(data, secondHtml) {
+            return '<div class="layui-colla-item">' +
+                '    <h2 class="layui-colla-title">' +
+                '        <input data-id="' + data.id + '"  disabled="true" type="checkbox"/><span  data-tier="parent">' + data.type_name + '</span>' +
+                '    </h2>' +
+                secondHtml +
+                '</div>';
+        }
+
+        /*
+         * 添加药品二级分类
+         */
+        function addSecondMenuHtml(data) {
+            return '<div class="layui-colla-content">' +
+                '    <input data-id="' + data.id + '"  type="checkbox"/><span>' + data.type_name + '</span>' +
+                '</div>';
+        }
+
+        /* 品种基本信息 TAB */
+        //获取挂网企业信息
+        myajax.ajax({
+            type: 'GET',
+            url: '/operate/api/product/detail?product_id=' + getUrlParam('id'),
+            success(data) {
+                $('.hang_type').html(data.hang_type)
+                data.hang_enterprise_is_auth ? $('.hang_enterprise_is_auth').html('（CA已认证）') : $('.hang_enterprise_is_auth').html('（CA未认证）')
+                $('.dosage_form').html(data.dosage_form)
+                $('.drug_remarks').html(data.drug_remarks)
+                $('.hang_enterprise').html(data.hang_enterprise)
+                $('.material').html(data.material)
+                $('.material_name').html(data.material_name)
+                $('.product_enterprise').html(data.product_enterprise)
+                $('.reg_number').html(data.reg_number)
+                $('.specification').html(data.specification)
+            },
+            error(error) {
+                layer.msg(error.responseJSON.detail)
+            }
+        })
+        /* 属性设置*/
+        //整件的复选框操作
+        $('#is_whole').change(function () {
+            $('#whole_nums').attr('disabled', !$(this).prop('checked'))
+        })
+        //获取属性设置
+        myajax.ajax({
+            type: 'GET',
+            url: '/operate/api/product/attribute?product_id=' + getUrlParam('id'),
+            success(data) {
+                let min_unit = data.min_unit;
+                let buy_method = data.buy_method;
+                if (min_unit) {
+                    min_unit += ''
+                }
+                if (buy_method) {
+                    buy_method += ''
+                }
+                if (judgeEmptyOrNull(min_unit)) {
+                    $('#least_unit').val(data.min_unit);//采购基数
+                }
+                if (judgeEmptyOrNull(min_unit)) {
+                    $('#buy_method').val(data.buy_method);//是否拆零
+                }
+                $('#buy_base').val(data.buy_base);//采购基数
+                $('#is_whole').prop('checked', data.is_whole);//是否整件
+                $('#whole_nums').val(data.whole_nums);//整件数量
+                $('#suggest_price').val(data.suggest_price);//建议零售价
+                $('#remarks').val(data.remarks);//备注说明
+                $('#infoSave').attr('data-id', data.id);
+                $('#whole_nums').attr('disabled', !data.is_whole);
+                $('.least_unit').text($('#least_unit option:selected').text());
+            },
+            error(error) {
+                layer.msg(error.responseJSON.detail)
+            }
+        })
+        /* 挂网区域*/
+        /*保存按钮 */
+        //将属性设置传给后台
+        $('#infoSave').click(function () {
+            let val = '';
+            $('#is_whole').prop('checked') ? val = $('#whole_nums').val() : val = 0;
+            if (judgeEmptyInput($('#suggest_price'))) {
+                myajax.post({
+                    url: '/operate/api/product/attribute?product_id=' + getUrlParam('id'),
+                    data: {
+                        'buy_base': $('#buy_base').val(),
+                        'buy_method': $('#buy_method').val(),
+                        'min_unit': $('#least_unit').val(),
+                        'is_whole': $('#is_whole').prop('checked'),
+                        'whole_nums': val,
+                        'suggest_price': $('#suggest_price').val(),
+                        'remarks': $('#remarks').val(),
+                    },
+                    success: function () {
+                        layer.msg('保存成功')
+                    },
+                    error(error) {
+                        layer.msg(error.responseJSON.detail)
+                    }
+                })
+            } else {
+                layer.msg('建议零售价不可为空')
+            }
+        })
+
+        /* 商品描述 TAB */
+        //页面加载默认显示品种基本信息区域内容，调整商品描述文本输入框高度
+        $(document).ready(function () {
+            $(".title_td").eq(0).click();
+        });
+        const editor = CKEDITOR.replace('pro_remark', {
+            height: 355,
+        });
+        //商品描述渲染首次发送请求
+        /*$.get('/operate/api/product/content/1/',function (data) {
+            editor.setData(data.content);
+        })*/
+        //点击商品描述的保存按钮操作
+        $('#textSave').click(function () {
+            myajax.ajax({
+                type: 'PUT',
+                url: '/operate/api/product/content/' + getUrlParam('id') + '/',
+                data: {'content': editor.getData()},
+                complete() {
+                    layer.msg('保存成功');
+                    loading.describeTab();
+                },
+                error(error) {
+                    layer.msg(error.responseJSON.detail)
+                }
+            })
+        });
+
+        /* 商品分类 TAB */
+        //商品分类 首次发送请求
+        //商品分类保存按钮操作
+        $('#classifySave').click(function () {
+            let idArr = [];
+            $('.layui-collapse input').each(function (ind, val, arr) {
+                let cheched = $(val).is(":checked");
+                let id = $(val).attr('data-id');
+                cheched && idArr.push(id);
+            })
+            myajax.post({
+                url: '/operate/api/product/category/' + getUrlParam('id') + '/',
+                data: {'category_list': JSON.stringify(idArr)},
+                success() {
+                    layer.msg('保存成功')
+                    loading.classifyTab();
+                },
+                error(error) {
+                    layer.msg(error.responseJSON.detail)
+                }
+            })
+        })
+        //商品分类的复选框逻辑操作
+        $(document).on('click', ".layui-collapse input", function () {
+            //获取点击分类的父节点的父节点
+            const ancestor = $(this).parent().parent();
+            //判断点击的是二级分类
+            if ($(this).parent()[0].localName == 'div') {
+                //选中二级分类，勾选其关联的一级分类且一级分类不可被取消
+                if ($(this).is(':checked')) {
+                    ancestor.find('h2 input').prop("checked", true);
+                    ancestor.find('h2 input').prop("disabled", true);
+                    //取消二级分类勾选，判断一级分类下二级分类是否全部被取消勾选，是修改一级分类disabled状态为false
+                } else {
+                    const divInput = ancestor.find('div input');
+                    let checkCount = 0;
+                    //遍历一级分类下所有二级分类的选中状态，统计未选中状态二级分类的个数
+                    divInput.each(function () {
+                        if ($(this).is(':checked')) {
+                            checkCount++;
+                        }
+                    })
+                    //该一级分类下所有二级分类均已取消勾选，修改该一级分类disable状态为false
+                    if (checkCount < 1) {
+                        //ancestor.find('h2 input').prop("disabled",false);
+                        ancestor.find('h2 input').prop("checked", false);
+                    }
+                }
+            }
+        });
+
+        //读取json文件，获取内容将其显示在页面上
+        function getSelectOption(url, id) {
+            $.getJSON(url, function (data) {
+                let proOptionList = "";
+                let province = $("#provinces_select").find("option:selected").text();
+                for (let i = 0; i < data.length; i++) {
+                    //区分直辖市 展示区
+                    if (province == '北京' || province == '天津' || province == '上海' || province == '重庆') {
+                        let subareas = data[i].subareas;
+                        $(subareas).each(function (ind, val, arr) {
+                            proOptionList += '<option value="' + val.region_code + '">' + val.name + '</option>';
+                        })
+                    } else {
+                        proOptionList += '<option value="' + data[i].region_code + '">' + data[i].name + '</option>';
+                    }
+                }
+                $(id).html(proOptionList);
+            })
+        }
+
+        //切换最下单位，修改相关最小单位文本
+        $('#least_unit').change(function () {
+            $('.least_unit').text($('#least_unit option:selected').text());
+        })
+        //点击页面上方文字切换页面显示内容
+        $(".title_td").click(function () {
+            var index = $(".title_td").index($(this));
+            var marginLeft = "-" + index + "00%";
+            //遍历所有title_td内容，修改相对应title_td的样式
+            for (var i = 0; i < $(".title_td").length; i++) {
+                //重置所有title_td样式
+                $(".title_td").eq(i).css({"color": "#000", "border-bottom": "0"});
+                //判断当前点击title_td元素，替换其样式
+                if (i == index) {
+                    $(".title_td").eq(i).css({"color": "rgb(4,189,152)", "border-bottom": "4px solid rgb(4,189,152)"});
+                }
+                ;
+            }
+            if ($(this).html() == '图片信息') {
+                /*if(edit == 'true'){
+                    loading.imgTab();
+                }*/
+                loading.imgTab();
+            }
+            if ($(this).html() == '商品描述') {
+                loading.describeTab();
+            }
+            if ($(this).html() == '商品分类') {
+                loading.classifyTab(edit);
+            }
+            $(".tabs_area").eq(0).animate({"margin-left": marginLeft});
+        })
+
+        layui.use('laydate', function () {
+            const laydate = layui.laydate;
+            //有效时间设置实例
+            laydate.render({
+                elem: '#validity', //指定元素
+                range: "~",
+            })
+        });
+
+        //配送商选择
+        layui.use('table', function () {
+            const table = layui.table;
+            //配送商表格
+            table.render({
+                id: 'DistributorsaList',
+                elem: '#distributorsTable',
+                url: '/operate/api/product/distributor?product_id=' + getUrlParam('id'),
+                height: "275",
+                skin: "nob",
+                even: true,
+                parseData: function (res) { //res 即为原始返回的数据
+                    return {
+                        "code": 0, //解析接口状态
+                        "msg": '', //解析提示文本
+                        "count": res.count, //解析数据长度
+                        "data": res.results
+                    };
+                },
+                error: function (error) {
+                    layer.msg(error.responseJSON.detail)
+                },
+                cols: [[
+                    {field: 'send_user', title: '配送商'},
+                    {field: 'hang_price', title: '挂网价格'},
+                    {fixed: 'right', align: 'center', toolbar: '#barDistributor', title: '操作'},
+                ]],
+            });
+            //监听配送商表格的表头工具栏
+            table.on('tool(distributorsTable)', function (obj) {
+                var dataItem = obj.data;
+                if (obj.event === 'edit') {//编辑操作
+                    let editIndex, option = '';
+                    editIndex = layer.open({
+                        id:1,
+                        type: 1,
+                        title: '编辑配送商',
+                        area: ['420px', 'auto'], //宽高
+                        content: '<div class="add_area">' +
+                            '    <select disabled>' +
+                            '        <option >' + dataItem.send_user + '</option>' +
+                            '    <select>' +
+                            '    <input type="text" class="judgeNumFloat" id="editDistributorsaVal" placeholder="输入挂网价格（单位：元）" value="' + dataItem.hang_price + '"/>' +
+                            '    <button id="editDistributorsaSave" class="layui-btn">保&nbsp;&nbsp;存</button>' +
+                            '</div>'
+                    });
+                    judge.init();
+                    //编辑挂网区域保存按钮
+                    $(document).on('click', '#editDistributorsaSave', function () {
+                        if (judgeEmptyInput($('#editDistributorsaVal'))) {
+                            myajax.ajax({
+                                type: 'PATCH',
+                                url: '/operate/api/product/distributor?product_id=' + getUrlParam('id'),
+                                data: {
+                                    'product_distributor_id': dataItem.id,
+                                    'hang_price': $('#editDistributorsaVal').val(),
+                                },
+                                success(data) {
+                                    layer.msg('保存成功')
+                                    table.reload('DistributorsaList', {
+                                        done: function (data) {
+
+                                        },
+                                    });
+                                },
+                                error(error) {
+                                    layer.msg(error.responseJSON.detail)
+                                }
+                            })
+                            layer.close(editIndex);
+                        }
+                    })
+                }
+            });
+            //点击添加配送商按钮
+            let distributorsIndex
+            $("#distributorsBtn").click(function () {
+                let option = '';
+                myajax.ajax({
+                    type: 'GET',
+                    url: '/operate/api/distributor/list?product_id=' + getUrlParam('id'),
+                    success(data) {
+                        if (!data) return;
+                        $(data.results).each(function (ind, val, arr) {
+                            option += '<option data-id="' + val.id + '">' + val.name + '</option>'
+                        })
+                        distributorsIndex = layer.open({
+                            type: 1,
+                            id:1,
+                            title: '配送商选择',
+                            area: ['420px', 'auto'], //宽高
+                            content: '<div class="add_area">' +
+                                '     <select id="addDistributorsList">' + option + '</select>' +
+                                '     <input id="addDistributorVal"  class="judgeNumFloat" type="text" placeholder="输入挂网价格（单位：元）"/>' +//<p>挂网价格：元</p>
+                                '     <button id="addDistributorSave" class="layui-btn" >保&nbsp;&nbsp;存</button>' +
+                                '</div>'
+                        });
+                        judge.init();
+                    },
+                    error(error) {
+                        layer.msg(error.responseJSON.detail)
+                    }
+                })
+            })
+            //新增挂网区域保存按钮
+            $(document).on('click', '#addDistributorSave', function () {
+                if (!judgeEmptyInput($('#addDistributorVal'))) return;
+                let val = $('#addDistributorVal').val();
+                myajax.post({
+                    url: '/operate/api/product/distributor/',
+                    data: {
+                        'product_id': getUrlParam('id'),
+                        'send_user': $('#addDistributorsList option:selected').attr('data-id'),
+                        'hang_price': val
+                    },
+                    success: function (data) {
+                        layer.msg('保存成功')
+                        table.reload('DistributorsaList', {
+                            done: function () {
+
+                            },
+                        });
+                    },
+                    error(error) {
+                        layer.msg(error.responseJSON.detail)
+                    }
+                })
+                layer.close(distributorsIndex);
+            })
+
+            //创建表格实例，展示挂网区域数据
+            function tableRender() {
+                table.render({
+                    id: 'areaList',
+                    elem: '#area_list',
+                    url: '/operate/api/product/area?product_id=' + getUrlParam('id'),
+                    height: "275",
+                    skin: "nob",
+                    page: false,
+                    even: true,
+                    parseData: function (res) { //res 即为原始返回的数据
+                        return {
+                            "code": 0, //解析接口状态
+                            "msg": '', //解析提示文本
+                            "count": res.count, //解析数据长度
+                            "data": res.results
+                        };
+                    },
+                    error: function (error) {
+                        layer.msg('发生了' + error.status + '错误，请稍后重试')
+                    },
+                    cols: [[
+                        {field: 'hang_region_code', title: '签约区域'},
+                        {field: 'agent_account', title: '签约代理商'},
+                        {field: 'agent_name', title: '名称'},
+                        {field: 'agent_mobile', title: '手机号'},
+                    ]],
+                });
+            }
+
+            // 默认渲染一次
+            tableRender();
+            //监听工具条
+            table.on('tool(test)', function (obj) {
+                var data = obj.data;
+                if (obj.event === 'del') {
+                    layer.confirm('确认删除当前分类？', function (index) {
+                        //删除之后表格刷新
+                        myajax.ajax({
+                            type: 'DELETE',
+                            url: '/operate/api/product/area?product_id=' + getUrlParam('id'),
+                            data: {
+                                'area_id': data.id,
+                            },
+                            success() {
+                                layer.msg('删除成功')
+                                tableRender()
+                            },
+                            error(error) {
+                                layer.msg(error.responseJSON.detail)
+                            }
+                        })
+                        layer.close(index);
+                    });
+                } else if (obj.event === 'edit') {//编辑操作
+                    let editIndex = layer.open({
+                        id:1,
+                        type: 1,
+                        title: '编辑挂网区域',
+                        area: ['420px', 'auto'], //宽高
+                        content: '<div class="add_area">' +
+                            '<select disabled>' +
+                            '<option value="33000000">浙江省</option>' +
+                            '<select>' +
+                            '<select disabled>' +
+                            '<option value="33010000">杭州市</option>' +
+                            '<select>' +
+                            '<select disabled>' +
+                            '<option>德弘医药</option>' +
+                            '<select>' +
+                            '<input type="text" id="editAreaVal" placeholder="输入挂网价格（单位：元）" value="' + data.hang_price + '"/>' +
+                            '<button id="editAreaSave" class="layui-btn">保&nbsp;&nbsp;存</button>' +
+                            '</div>'
+                    });
+                    //编辑挂网区域保存按钮
+                    $('#editAreaSave').click(function () {
+                        let flag = judgeEmptyInput($('#editAreaVal'))
+                        if (flag) {
+                            //刷新挂网区域的表格 执行重载
+                            myajax.ajax({
+                                type: 'PATCH',
+                                url: '/operate/api/product/area?product_id=' + getUrlParam('id'),
+                                data: {
+                                    'area_id': data.id,
+                                    'hang_price': $('#editAreaVal').val()
+                                },
+                                success() {
+                                    layer.msg('保存成功')
+                                    //完成之后渲染表格
+                                    tableRender()
+                                },
+                                error(error) {
+                                    layer.msg(error.responseJSON.detail)
+                                }
+                            })
+                            layer.close(editIndex);
+                        }
+                    })
+                }
+            });
+            //点击新增挂网区域按钮触发弹窗事件
+            $("#create_btn").click(function () {
+                let index = layer.open({
+                    id:1,
+                    type: 1,
+                    title: '新增挂网区域',
+                    area: ['420px', 'auto'], //宽高
+                    content: '<div class="add_area">' +
+                        '     <select id="provinces_select">' +
+                        //'         <option value="33000000">浙江省</option>' +provinces+
+                        '     </select>' +
+                        '     <select id="city_select">' +
+                        //'         <option value="33010000">杭州市</option>' +
+                        '     </select>' +
+                        '     <select id="distributor">' +
+                        '         <option >德弘医药</option>' +
+                        '     </select>' +
+                        '     <input id="hang_price" class="judgeEmpty" type="text" placeholder="输入挂网价格（单位：元）"/>' +//<p>挂网价格：元</p>
+                        '     <button class="layui-btn" id="areaSave">保&nbsp;&nbsp;存</button>' +
+                        '</div>'
+                });
+                //默认渲染省、区数据
+                getSelectOption('/static/area/provinces.json', '#provinces_select');
+                getSelectOption('/static/area/11000000.json', '#city_select');
+                //新增挂网区域保存按钮
+                $(document).on('click', '#areaSave', function () {
+                    let flag = judgeEmptyInput($('#hang_price'))
+                    if (flag) {
+                        let provinceVal = $('#provinces_select option:selected').val()
+                        let provinceText = $('#provinces_select option:selected').text()
+                        let cityVal = $('#city_select option:selected').val()
+                        let cityText = $('#city_select option:selected').text()
+                        let hang_price = $('#hang_price').val()
+                        myajax.post({
+                            url: '/operate/api/product/area?product_id=' + getUrlParam('id'),
+                            data: {
+                                'hang_province': provinceVal,
+                                'hang_region_code': cityVal,
+                                'distributor': 1,
+                                'hang_price': hang_price
+                            }, success: function (data) {
+                                layer.msg('保存成功')
+                            },
+                            error(error) {
+                                layer.msg(error.responseJSON.detail)
+                            }
+                        })
+                        layer.close(index);
+                    }
+                })
+            })
+        })
+        //改变省时级联改变市区选择栏内容
+        $(document).on('change', '#provinces_select', function () {
+            const jsonUrl = '/static/area/' + $(this).val() + '.json';
+            getSelectOption(jsonUrl, '#city_select');
+        })
+        /* 四个tab 首次加载请求 */
+        let loading = {
+            imgTab: function () {
+                //清除图片
+                $('#imgList').html('');
+                myajax.ajax({
+                    type: 'GET',
+                    url: '/operate/api/product/picture/' + getUrlParam('id') + '/',
+                    success(data) {
+                        let html = '';
+                        $(data.results).each(function (ind, val) {
+                            html += '<div class="img_show" data-id="' + val.id + '">\n' +
+                                '            <div class="delete_btn">X</div>\n' +
+                                '            <img  data-img="img" src="' + val.file + '"/>\n' +
+                                '        </div>'
+                        })
+                        $('#imgList').html(html);
+                        if ($('#imgList>div').length) {
+                            $('#imgList>div').length > 4 ? $('#img_add').addClass('layui-hide') :
+                                $('#img_add').removeClass('layui-hide');
+                        }
+                    },
+                    error(error) {
+                        layer.msg(error.responseJSON.detail)
+                    }
+                })
+            },
+            describeTab() {
+                myajax.ajax({
+                    type: 'GET',
+                    url: '/operate/api/product/content/' + getUrlParam('id') + '/',
+                    success(data) {
+                        editor.setData(data.content);
+                    },
+                    error(error) {
+                        layer.msg(error.responseJSON.detail)
+                    }
+                })
+            },
+            classifyTab(edit) {
+                layui.use('element', function () {
+                    const element = layui.element;
+                    myajax.ajax({
+                        type: 'GET',
+                        url: '/operate/api/category/',
+                        success(menuData) {
+                            let menuHtml = "";
+                            for (let i = 0; i < menuData.length; i++) {
+                                let secondHtml = "";
+                                if (menuData[i].bottom) {
+                                    for (let j = 0; j < menuData[i].bottom.length; j++) {
+                                        secondHtml += addSecondMenuHtml(menuData[i].bottom[j]);
+                                    }
+                                }
+                                menuHtml += addFirstMenuHtml(menuData[i], secondHtml);
+                            }
+                            $("#classifyContent").html(menuHtml);
+                            element.render('collapse');
+                            //商品分类 获取选中的id
+                            myajax.ajax({
+                                type: 'GET',
+                                url: '/operate/api/product/category/' + getUrlParam('id') + '/',
+                                success(data) {
+                                    $(data.id_list).each(function (ind, val, arr) {
+                                        $('input[data-id=' + val + ']').prop("checked", true)
+                                    })
+                                },
+                                error(error) {
+                                    layer.msg(error.responseJSON.detail)
+                                }
+                            })
+                        },
+                        error(error) {
+                            layer.msg(error.responseJSON.detail)
+                        }
+                    })
+                })
+            }
+        }
+
+        /* 图片信息 TAB */
+        //删除图片的ajax请求
+        layui.use('layer', function () {
+            const layer = layui.layer;
+            //点击图片删除按钮删除对应图片
+            $(document).on("click", ".delete_btn", function () {
+                let delId = $(this).parent('div').attr('data-id');
+                let me = this;
+                layer.confirm('真的删除这张图片吗？', function (index) {
+                    if (delId) {
+                        myajax.ajax({
+                            type: 'DELETE',
+                            url: '/operate/api/product/picture/' + getUrlParam('id') + '/' + '?id=' + delId,
+                            success: function () {
+                                layer.msg('删除成功')
+                                loading.imgTab();
+                            },
+                            error(error) {
+                                layer.msg(error.responseJSON.detail)
+                            }
+                        });
+                    } else {
+                        imgDel = $(me).next().attr('data-img');
+                        imgObj[imgDel] = '';
+                        $(me).parent('div').remove();
+                        if ($('#imgList>div').length) {
+                            $('#imgList>div').length > 4 ? $('#img_add').addClass('layui-hide') :
+                                $('#img_add').removeClass('layui-hide');
+                        }
+                    }
+                    layer.close(index);
+                });
+            })
+        })
+        //图片保存时候的数据
+        let imgData = [], imgObj = {}, imgIndex = 0, imgDel;
+        //图片上传
+        layui.use('upload', function () {
+            var upload = layui.upload;
+            //普通图片上传
+            var uploadInst = upload.render({
+                elem: '#img_add',
+                url: '/operate/api/product/picture/upload/',
+                headers: {"X-CSRFToken": getCookie('csrftoken')},
+                before: function (obj) {
+                    //预读本地文件示例，不支持ie8
+                    obj.preview(function (index, file, result) {
+                        //显示图片
+                        let html = '';
+                        html = '<div class="img_show" data-id="">\n' +
+                            '           <div class="delete_btn">X</div>\n' +
+                            '           <img  data-img="img' + imgIndex + '" src="' + result + '"/>\n' +
+                            '       </div>'
+                        $('#imgList').append(html);
+                        if ($('#imgList>div').length) {
+                            $('#imgList>div').length > 4 ? $('#img_add').addClass('layui-hide') :
+                                $('#img_add').removeClass('layui-hide');
+                        }
+                        ;
+                    });
+                },
+                done: function (res) {
+                    //向传给后台数据的对象中存储数据
+                    imgObj['img' + imgIndex] = res;
+                    imgIndex++;
+                    {#layer.msg('图片保存成功')#}
+                },
+                error(error) {
+                    layer.msg(error.responseJSON.detail)
+                }
+            });
+        });
+        //图片保存的时候发送请求
+        $('#imgSave').click(function () {
+            for (let key in imgObj) {
+                if (imgObj[key]) {
+                    imgData.push(imgObj[key]);
+                }
+            }
+            if (imgData) {
+                myajax.post({
+                    url: '/operate/api/product/picture/' + getUrlParam('id') + '/',
+                    data: {
+                        "pic_list": JSON.stringify(imgData)
+                    },
+                    success() {
+                        imgSaveFlag = true;
+                        loading.imgTab();
+                        imgData = [];
+                        imgObj = {};
+                        layer.msg('保存成功！')
+                    },
+                    error(error) {
+                        layer.msg(error.responseJSON.detail)
+                    }
+                })
+            }
+        })
+        judge.init();
+    </script>
+{% endblock %}
