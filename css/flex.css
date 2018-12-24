@@ -1,0 +1,8 @@
+/*todo flex布局*/
+body{
+    background: #72b890;
+}
+div{
+    display: flex;
+    flex-direction: column;
+}
