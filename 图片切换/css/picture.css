@@ -1,0 +1,202 @@
+ /*设置整体section的样式*/
+#main{
+	width: 1000px;
+	height: 500px;
+	position: relative;
+	margin: 20px auto;
+	overflow: hidden;
+	border: 20px solid #fff;
+	box-shadow: 1px 1px 3px black;
+}   
+
+/*设置下方圆圈和图片分隔线的样式*/
+#main label{
+	width: 250px;
+	height: 80px;
+	cursor: pointer;
+	float:left;
+	position: relative;
+	margin-top:350px;
+	z-index: 100;
+}
+#main label:before{
+	content:'';
+	width: 34px;
+	height: 34px;
+	background: #82C3D9;
+	position: absolute;
+	left: 50%;
+	top:120%;
+	margin-left: -17px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 0px 4px rgba(255,255,255,0.3);
+}
+/*设置四个span的分隔线*/
+#main label:after{
+	content: '';
+	width: 1px;
+	height: 500px;
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+	position: absolute;
+	bottom: -20px;
+	right: 0px
+}
+#main label.label4:after{width:0px;}/*去掉最后一条竖线*/
+
+/*设置当圆圈被点击时颜色变为白色，并且设置阴影*/
+#main input.selector1:checked ~ label.label1:before,
+#main input.selector2:checked ~ label.label2:before,
+#main input.selector3:checked ~ label.label3:before,
+#main input.selector4:checked ~ label.label4:before{
+	background:#fff;
+	box-shadow: 0px 0px 0px 4px rgba(104,171,194,0.6);
+}
+#main input{display: none;}/*设置input按钮隐藏！*/
+/*下面开始设置图片*/
+.bigimg{
+	width: 1000px;
+	height: 500px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-repeat: no-repeat;
+}
+.bigimg>div{                         /*设置好bigimg，div以及span的样式，四个div，每个宽度只有bigimg的四分之一*/
+	width: 250px;
+	height: 100%;
+	position: relative;
+	float: left;
+	overflow: hidden;             /*这一步很重要，当span移动div外面是被隐藏的！*/
+}
+.bigimg>div>span{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 250px;/*把偶数的的子代div的span全部像右移动250px*/
+	z-index: 2;
+}
+.bigimg div:nth-child(odd) span{left:-250px;}/*把奇数的子代div里的span全部向左移动250px*/
+
+
+/*设置当input被选择时，对应的bigimg大背景图。     和设置所有div的第一个span所对应的背景图片*/
+#main input.selector1:checked ~ .bigimg,
+.bigimg div span:nth-child(1){background-image: url(../img/1.png);}
+#main input.selector2:checked ~ .bigimg,
+.bigimg div span:nth-child(2){background-image: url(../img/2.jpg);}
+#main input.selector3:checked ~ .bigimg,
+.bigimg div span:nth-child(3){background-image: url(../img/3.jpg);}
+#main input.selector4:checked ~ .bigimg,
+.bigimg div span:nth-child(4){background-image: url(../img/4.jpg);}
+
+/*设置bigimg里第1到第4个div里的span的背景位置分别向左移动0px,250px,500px,750px,这样每个span正好显示图片的四分之一*/
+.bigimg div:nth-child(1) span{
+	background-position: 0px 0px;
+}
+.bigimg div:nth-child(2) span{
+	background-position: -250px 0px;
+}
+.bigimg div:nth-child(3) span{
+	background-position: -500px 0px;
+}
+.bigimg div:nth-child(4) span{
+	background-position: -750px 0px;
+}
+
+
+/*给图片定义动画！！！！***********************************************************************************************888/
+/*ease-in-out 加速然后减速*/
+/*定义奇数的span背景图片向右移动，偶数的向左移动！*/
+/*
+  图片移动的原理:奇数div的span图片从-250到0进来再到250px出去，形成从左边进，到右边出的效果，偶数的相反，动画执行后返回原来位置！
+*/
+
+/*这个动画是让图片出去*/
+@-webkit-keyframes toright{
+	0%{ left: 0px;opacity:1; }
+	100%{ left: 250px;opacity:0.6; }
+}
+@-webkit-keyframes toleft{
+	0%{ left: 0px; opacity:1;}
+	100%{ left: -250px;opacity:0.6; }
+}
+#main input:checked ~ .bigimg div span{
+	-webkit-animation: toright 0.6s ease-in-out;
+}
+#main input:checked ~ .bigimg div:nth-child(even) span{
+	-webkit-animation: toleft 0.6s ease-in-out;
+}
+
+/*这个动画是让图片进来*/
+/*前面我们设置了偶数div的span的left为250px,奇数div的span的left为-250px,现在设置当按钮被点击时,对应的
+span现在的位置到left为0的位置的动画，这样就形成了奇数span向右移动，偶数span向左移动的情况*/
+#main input.selector1:checked ~ .bigimg div span:nth-child(1),
+#main input.selector2:checked ~ .bigimg div span:nth-child(2),
+#main input.selector3:checked ~ .bigimg div span:nth-child(3),
+#main input.selector4:checked ~ .bigimg div span:nth-child(4){
+	
+	-webkit-transition: left 0.6s ease-in-out;
+	
+	-webkit-animation: none;
+	
+	left:0px;
+	
+	z-index:8;
+}
+
+
+
+
+
+/*设置文字显示的样式****************************************************************************/
+.titles h3{color:#fff;text-shadow: 1px 1px 1px rgba(0,0,0,0.1);}
+.titles h3 span{
+	z-index: 10;
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	text-align: center;
+	opacity: 0;
+	top: 61%;
+}
+.titles h3 span:nth-child(1){
+	left: 0px;
+	font-family:'Arial';
+	font-size: 70px;
+	letter-spacing: 7px;
+	-webkit-transition: opacity 0.8s ease-in-out, -webkit-transform 0.8s ease-in-out;/*设置大标题透明度和缩放的渐变*/
+}
+
+.titles h3 span:nth-child(2){
+	margin-top: 84px;
+	letter-spacing: 4px;/*字体符号间距为4*/
+	background:rgba(104,171,194,0.6);
+	font-size: 20px;
+	padding: 10px 0px;
+	font-style: italic;
+	font-family:'微软雅黑';
+	-webkit-transition: opacity 0.8s ease-in-out;/*设置小标题透明度的渐变*/
+	
+}
+/*设置所有大标题的缩放起始为0.7*/
+#main input:checked ~ .titles h3 span:nth-child(1){
+	
+	-webkit-transform: scale(0.7);
+	
+}
+/*大标题点击时透明度和缩放发生了变化*/
+#main input.selector1:checked ~ .titles h3:nth-child(1) span:nth-child(1),
+#main input.selector2:checked ~ .titles h3:nth-child(2) span:nth-child(1),
+#main input.selector3:checked ~ .titles h3:nth-child(3) span:nth-child(1),
+#main input.selector4:checked ~ .titles h3:nth-child(4) span:nth-child(1){
+	opacity: 1;
+	-webkit-transform: scale(1);
+	
+}
+/*小标题点击时透明度发生了变化*/
+#main input.selector1:checked ~ .titles h3:nth-child(1) span:nth-child(2),
+#main input.selector2:checked ~ .titles h3:nth-child(2) span:nth-child(2),
+#main input.selector3:checked ~ .titles h3:nth-child(3) span:nth-child(2),
+#main input.selector4:checked ~ .titles h3:nth-child(4) span:nth-child(2){
+	opacity: 1;
+}
