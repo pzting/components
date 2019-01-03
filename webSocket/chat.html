@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>聊</title>
+</head>
+<body>
+<textarea name="" id="text" cols="30" rows="10"></textarea>
+<button id='btn'>发送</button>
+
+<!--<script src='http://wulv5.com/js/socket.io.min.js'></script>-->
+<script src="https://cdn.bootcss.com/socket.io/2.2.0/socket.io.js"></script>
+<script>
+    var socket=io.connect('/');//连接聊天室的io服务器 /是跟地址
+
+    var text=document.getElementById('text');
+    var btn=document.getElementById('btn');
+    btn.onclick=function(){
+        var mes=text.value;
+        if(!mes){
+            return;
+        }
+        socket.send(mes)//发消息
+        text.value='';
+    }
+    socket.on('message',function(mes){
+        var div=document.createElement('div')
+        div.className='mes';
+        div.innerText=mes
+        document.body.appendChild(div);
+    });//
+</script>
+</body>
+</html>
