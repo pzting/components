@@ -1,0 +1,13 @@
+div {
+  display: flex;
+}
+div input {
+  width: 20px;
+  outline: none;
+  border: 1px solid #ddd;
+  border-right: transparent;
+  text-align: center;
+}
+div input:last-child {
+  border-right: 1px solid #ddd;
+}

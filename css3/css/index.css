@@ -1,0 +1,17 @@
+#fu::selection {
+  color: red;
+  background: #000;
+}
+#fu div {
+  width: 100px;
+  height: 400px;
+  border: 1px solid #ddd;
+}
+#fu div:target {
+  color: blue;
+  font-size: 50px;
+}
+#fu a:target {
+  color: blue;
+  font-size: 50px;
+}
