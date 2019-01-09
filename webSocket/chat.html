@@ -3,31 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <title>聊</title>
+    <link rel="stylesheet" href="./css/chat.css">
 </head>
 <body>
+<div class="content">
+    <div class="head">
+
+    </div>
+    <div id="chatContent">
+        <div class="chat chatLeft">
+        <span>
+            <img src="images/via1.jpg" alt="">
+        </span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur cum dolorum error eum incidunt
+                molestiae nisi nulla praesentium vero voluptatum! Accusamus ipsum reiciendis tempore! Commodi distinctio
+                neque quia repellat tenetur.</p>
+        </div>
+        <div class="chat chatRight">
+        <span>
+            <img src="images/via2.jpg" alt="">
+        </span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur cum dolorum error eum incidunt
+                molestiae nisi nulla praesentium vero voluptatum! Accusamus ipsum reiciendis tempore! Commodi distinctio
+                neque quia repellat tenetur.</p>
+        </div>
+    </div>
+    <div class="inputBox">
+        <img class="voice" src="images/voice.jpg" alt="">
+        <input type="text" id="chatBox">
+        <!--<textarea name="" id="chatBox" cols="30" rows="10"></textarea>-->
+        <img src="images/face.jpg" alt="" class="face">
+        <img src="images/add.jpg" alt="" class="add">
+    </div>
+</div>
 <textarea name="" id="text" cols="30" rows="10"></textarea>
 <button id='btn'>发送</button>
 
 <!--<script src='http://wulv5.com/js/socket.io.min.js'></script>-->
 <script src="https://cdn.bootcss.com/socket.io/2.2.0/socket.io.js"></script>
 <script>
-    var socket=io.connect('/');//连接聊天室的io服务器 /是跟地址
+    var socket = io.connect('/');//连接聊天室的io服务器 /是跟地址
 
-    var text=document.getElementById('text');
-    var btn=document.getElementById('btn');
-    btn.onclick=function(){
-        var mes=text.value;
-        if(!mes){
+    var text = document.getElementById('text');
+    var btn = document.getElementById('btn');
+    var chatContent = document.getElementById('chatContent');
+    btn.onclick = function () {
+        var mes = text.value;
+        if (!mes) {
             return;
         }
         socket.send(mes)//发消息
-        text.value='';
+        text.value = '';
     }
-    socket.on('message',function(mes){
-        var div=document.createElement('div')
-        div.className='mes';
-        div.innerText=mes
-        document.body.appendChild(div);
+    socket.on('message', function (mes) {
+        var div = document.createElement('div')
+        div.className = 'chat chatLeft';
+//        div.innerText = mes
+//        document.body.appendChild(div);
+        div.innerHTML =
+            '<span>' +
+            '<img src="images/via1.jpg" alt="">' +
+            '</span>' +
+            '<p>' + mes +
+            '</p>'
+        chatContent.appendChild(div)
     });//
 </script>
 </body>
