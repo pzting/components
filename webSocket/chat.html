@@ -45,29 +45,82 @@
     var socket = io.connect('/');//连接聊天室的io服务器 /是跟地址
 
     var text = document.getElementById('text');
+    var chatBox = document.getElementById('chatBox');
     var btn = document.getElementById('btn');
     var chatContent = document.getElementById('chatContent');
-    btn.onclick = function () {
-        var mes = text.value;
-        if (!mes) {
-            return;
+    let chatObj = {
+        userId: '',
+        headImg: '',
+        wordArr: ['鼠','牛','虎','兔','龙','蛇','马','羊','猴','鸡','狗','猪'],
+        bg: '',
+        word: '',
+        basic () {
+            this.userId = Math.random().toString()
+//            this.headImg = parseInt(Math.random()*2)+1
+            this.bg = this.bgColor(255,255,255,.8);
+            this.word = this.wordArr[parseInt(Math.random()*12)]
+            console.log(this.word)
+        },
+        init () {
+            this.basic()
+            this.send()
+            this.accept()
+        },
+        bgColor (r,g,b,a) {
+            return 'rgba('+parseInt(Math.random()*r)+','+parseInt(Math.random()*g)+','+parseInt(Math.random()*b)+','+a+')'
+        },
+        send () {
+            let me = this
+            document.onkeydown = function (event) {
+                var e = event || window.event;
+                if (e && e.keyCode == 13) { //回车键的键值为13
+                    var obj ={
+                        text: chatBox.value,
+                        userId: me.userId,
+                        bg: me.bg,
+                        word: me.word,
+                        headImg: me.headImg
+                    }
+                    if (!obj) {
+                        return;
+                    }
+                    socket.send(obj)//发消息
+                    chatBox.value = '';
+                }
+            };
+        },
+        accept () {
+            let me = this
+            socket.on('message', function (mes) {
+                var div = document.createElement('div')
+                div.className = 'chat chatLeft';
+                var html =
+                    '<span style="background:'+mes.bg+'">' +
+                    mes.word+
+//            '<img src="images/via'+mes.headImg+'.jpg" alt="">' +
+                    '</span>' +
+                    '<p>' + mes.text +
+                    '</p>'
+                if (me.userId == mes.userId) {
+                    div.className = 'chat chatRight';
+                    html =
+                        '<span style="background:'+mes.bg+'">' +
+                        mes.word+
+//                '<img src="images/via'+mes.headImg+'.jpg" alt="">' +
+                        '</span>' +
+                        '<p>' + mes.text +
+                        '</p>'
+                }
+                div.innerHTML = html
+                chatContent.appendChild(div)
+                chatContent.scrollTop = chatContent.scrollHeight // 滚动条始终在底部
+            });//
         }
-        socket.send(mes)//发消息
-        text.value = '';
+
     }
-    socket.on('message', function (mes) {
-        var div = document.createElement('div')
-        div.className = 'chat chatLeft';
-//        div.innerText = mes
-//        document.body.appendChild(div);
-        div.innerHTML =
-            '<span>' +
-            '<img src="images/via1.jpg" alt="">' +
-            '</span>' +
-            '<p>' + mes +
-            '</p>'
-        chatContent.appendChild(div)
-    });//
+    chatObj.init()
+
+
 </script>
 </body>
 </html>

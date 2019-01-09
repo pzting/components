@@ -21,6 +21,11 @@ div.content .chat span {
   width: 40px;
   display: inline-block;
   flex-basis: 40px;
+  text-align: center;
+  line-height: 38px;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 28px;
 }
 div.content .chat span img {
   height: 100%;
@@ -36,6 +41,10 @@ div.content .chat p {
 }
 div.content .chatRight {
   flex-direction: row-reverse;
+}
+div.content #chatContent {
+  overflow: auto;
+  height: 612px;
 }
 div.content .inputBox {
   height: 50px;
