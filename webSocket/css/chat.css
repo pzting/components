@@ -12,6 +12,16 @@ div.content .head {
   top: 0;
   background: rgba(55, 54, 59, 0.9);
 }
+div.content .time {
+  display: flex;
+  justify-content: center;
+}
+div.content .time span {
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  background: #cfcfcf;
+}
 div.content .chat {
   display: flex;
   margin: 13px 10px;
