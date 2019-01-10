@@ -15,6 +15,7 @@ let chatObj = {
     word: '',
     lastDate: null,
     isShowTime: true,
+    isInput: false, // 是否输入状态
     basic () { // 默认值
         this.userId = Math.random().toString()
 //            this.headImg = parseInt(Math.random()*2)+1
@@ -48,17 +49,35 @@ let chatObj = {
             let TDOA = nowDate-me.lastDate
             me.isShowTime = (TDOA>1000*60*10) ? true : false
             var e = event || window.event;
+            var obj ={
+                text: '发送中...',
+                userId: me.userId,
+                bg: me.bg,
+                word: me.word,
+                isInput: true,
+                sending: true,
+                isShowTime: me.isShowTime,
+                headImg: me.headImg
+            }
+            if (!obj) {
+                return;
+            }
+            socket.send(obj)
+            /*if (!me.isInput){
+                socket.send(obj)
+                me.isInput = true
+            }*/
             if (e && e.keyCode == 13) { //回车键的键值为13
+                me.isInput = false;
                 var obj ={
                     text: chatBox.value,
                     userId: me.userId,
                     bg: me.bg,
                     word: me.word,
+                    isInput: false,
+                    sending: false,
                     isShowTime: me.isShowTime,
                     headImg: me.headImg
-                }
-                if (!obj) {
-                    return;
                 }
                 socket.send(obj)//发消息
                 chatBox.value = '';
@@ -68,35 +87,48 @@ let chatObj = {
     accept () { // 接受消息
         let me = this
         socket.on('message', function (mes) {
+            var text = mes.text
             var div = document.createElement('div')
             var divTime = document.createElement('div')
             divTime.className = 'time';
             div.className = 'chat chatLeft';
+            // 先删除掉 类是sending的元素
+            document.querySelector('.sending') && (chatContent.removeChild(document.querySelector('.sending')))
+            if (mes.sending){ // 判断发送的状态
+                div.className = 'chat sending chatLeft';
+            }
             if(mes.isShowTime){
                 divTime.innerHTML = '<span>'+me.time()+'</span>'
                 chatContent.appendChild(divTime)
             }
-            var html =
-                '<span style="background:'+mes.bg+'">' +
-                mes.word+
+            var html = ''
+            if (me.userId != mes.userId){ // 别人发给我的
+                html =
+                    '<span style="background:'+mes.bg+'">' +
+                    mes.word+
 //            '<img src="images/via'+mes.headImg+'.jpg" alt="">' +
-                '</span>' +
-                '<p>' + mes.text +
-                '</p>'
-            if (me.userId == mes.userId) {
+                    '</span>' +
+                    '<p>' + text +
+                    '</p>'
+            }
+            if (me.userId == mes.userId && !mes.sending) { // 我发给别人的
                 div.className = 'chat chatRight';
                 html =
                     '<span style="background:'+mes.bg+'">' +
                     mes.word+
 //                '<img src="images/via'+mes.headImg+'.jpg" alt="">' +
                     '</span>' +
-                    '<p>' +mes.text +
+                    '<p>' +text +
                     '</p>'
             }
             div.innerHTML = html
             chatContent.appendChild(div)
             chatContent.scrollTop = chatContent.scrollHeight // 滚动条始终在底部
             me.lastDate = new Date()
+            /*if (mes.isInput){
+                var len = document.getElementsByClassName('chat').length
+                chatContent.removeChild(document.getElementsByClassName('chat')[len-1])
+            }*/
         });//
     }
 
