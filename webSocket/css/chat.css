@@ -49,6 +49,18 @@ div.content .chat p {
   border: 1px solid #cbcbcb;
   border-radius: 5px;
 }
+div.content .chat p img {
+  height: 38px;
+  display: inline-block;
+  border-radius: 5px;
+}
+div.content .chat p.isinput {
+  color: #fff;
+  background: url(../images/dot2.gif);
+}
+div.content .chat p.notPadding {
+  padding: 0;
+}
 div.content .chatRight {
   flex-direction: row-reverse;
 }
