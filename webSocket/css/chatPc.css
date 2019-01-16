@@ -1,13 +1,23 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: Helvetica Neue, Helvetica, Hiragino Sans GB, Microsoft YaHei, \\5FAE\8F6F\96C5\9ED1, Arial, sans-serif;
+  background: url(//res.wx.qq.com/a/wx_fed/webwx/res/static/img/2zrdI1g.jpg) no-repeat 50%;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 div.content {
   width: 720px;
-  height: 706px;
+  height: 686px;
   background: #ebebeb;
   position: relative;
   padding-top: 63px;
-  margin: 0 auto;
 }
 div.content .head {
   height: 63px;
@@ -75,7 +85,7 @@ div.content .chatRight p {
 }
 div.content #chatContent {
   overflow: auto;
-  height: 526px;
+  height: 506px;
 }
 div.content #chatContent::-webkit-scrollbar {
   /*滚动条整体样式*/
