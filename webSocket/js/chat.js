@@ -84,7 +84,9 @@ let chatObj = {
                 '</p>' +
                 '</div>'
         }
-        chatContent.innerHTML=html;
+        if(html){
+            chatContent.innerHTML +=html;
+        }
         chatContent.scrollTop = chatContent.scrollHeight
     },
     bgColor (r, g, b, a) { // 随机生成颜色
@@ -194,6 +196,7 @@ let chatObj = {
             arr = JSON.parse(arrMes)
         }
         socket.on('message', function (mes) {
+
             var text = mes.text
             text = text.replace('\n','<br />')
             if (text != '输入中...') {
