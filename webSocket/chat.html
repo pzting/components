@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>聊</title>
+    <!--<meta name="viewport" content="width=320,maximum-scale=1.3,user-scalable=no">-->
+    <!--<meta name="viewport" content="initial-scale=1">-->
+    <!--<link rel="stylesheet" href="./css/chat.css">-->
+    <!--<link rel="stylesheet" href="./css/chatPhone.css">-->
+    <link rel="stylesheet" href="./css/chatPc.css">
+    <!--<script src="js/rem.js"></script>-->
+</head>
+<body>
+<div class="content">
+    <div class="head">
+
+    </div>
+    <div id="chatContent">
+        <div class="time">
+            <span>1-1 16:42</span>
+        </div>
+        <div class="chat chatLeft">
+        <span>
+            <img src="images/via1.jpg" alt="">
+        </span>
+            <p>Hello，这是一个基于node+websocket构建的简单chat示例，聊天记录保存在localStorge。简单演示了websocket的特效。</p>
+        </div>
+        <!--<div class="chat chatRight">
+        <span>
+            <img src="images/via2.jpg" alt="">
+        </span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur cum dolorum error eum incidunt
+                molestiae nisi nulla praesentium vero voluptatum! Accusamus ipsum reiciendis tempore! Commodi distinctio
+                neque quia repellat tenetur.</p>
+        </div>-->
+    </div>
+    <!--<div class="inputBox">
+        <img class="voice" src="images/voice.jpg" alt="">
+        <input type="text" autofocus="autofocus" id="chatBox">
+        <img src="images/face.jpg" alt="" class="face">
+        <img src="images/add.jpg" alt="" class="add">
+    </div>-->
+    <div class="inputArea">
+        <div class="toobar"></div>
+        <textarea placeholder="在这里编辑你想要发送的信息，按Ctrl+Enter键换行" name="" id="chatBox" cols="30" rows="10"></textarea>
+        <div>
+            <span id="send">发送</span>
+        </div>
+    </div>
+</div>
+<!--<textarea name="" id="text" cols="30" rows="10"></textarea>
+<button id='btn'>发送</button>-->
+
+<!--<script src='http://wulv5.com/js/socket.io.min.js'></script>-->
+<script src="https://cdn.bootcss.com/socket.io/2.2.0/socket.io.js"></script>
+<script src="js/chat.js"></script>
+</body>
+</html>

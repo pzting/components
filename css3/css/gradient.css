@@ -1,0 +1,7 @@
+.bg {
+  width: 375px;
+  height: 667px;
+  padding: 0;
+  margin: 40px auto;
+  background: radial-gradient(circle at 32px 0px, #4a80f2 18%, #6776e8 28%, #2083ff 60%, #1a8afc 70%, #394bff 100%);
+}

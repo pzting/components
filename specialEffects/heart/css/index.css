@@ -1,0 +1,1 @@
+html div.heart{position:relative;width:100px;height:100px;border:2px solid #00f}html div.heart div{position:absolute;width:10px;height:16px;background:red;border-radius:10px 10px 0 0}html div.heart .left{transform:rotate(-45deg)}html div.heart .right{left:4px;transform:rotate(45deg)}/*# sourceMappingURL=index.css.map */
